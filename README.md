@@ -12,7 +12,7 @@ So sánh hình ảnh của hai phiên bản game MU Awaken và MU Origin trong m
 
 ## Demo
 
-Bạn có thể xem demo trực tiếp tại: [https://yourusername.github.io/MU-Art-Compare/](https://yourusername.github.io/MU-Art-Compare/)
+Bạn có thể xem demo trực tiếp tại: [https://kienbb.github.io/MU-Art-Compare/](https://kienbb.github.io/MU-Art-Compare/)
 
 ## Cấu trúc thư mục
 
@@ -37,7 +37,7 @@ Bạn có thể xem demo trực tiếp tại: [https://yourusername.github.io/MU
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/MU-Art-Compare.git
+git clone https://github.com/kienbb/MU-Art-Compare.git
 cd MU-Art-Compare
 
 # Cài đặt dependencies
