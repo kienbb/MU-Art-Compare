@@ -1,0 +1,19 @@
+{
+  "name": "muartcomparesite",
+  "version": "1.0.0",
+  "main": "scan_assets.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "scan": "node scan_assets.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
