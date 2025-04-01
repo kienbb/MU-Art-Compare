@@ -4,6 +4,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Thiết lập quyền cho workflow này
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
