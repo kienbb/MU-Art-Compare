@@ -2,6 +2,8 @@
 
 So sánh hình ảnh của hai phiên bản game MU Awaken và MU Origin trong một giao diện trực quan và dễ sử dụng.
 
+> Đã triển khai trên GitHub Pages! 
+
 ## Tính năng
 
 - Xem và so sánh hình ảnh từ MU Awaken và MU Origin
