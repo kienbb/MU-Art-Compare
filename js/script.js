@@ -83,15 +83,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- NEW Function to populate the sidebar as a tree ---
+    // Function to populate the sidebar as a tree
     function populateTreeSidebar(categoriesData) {
         categoriesContainer.innerHTML = ''; // Clear previous content
         const treeRoot = document.createElement('ul');
         treeRoot.classList.add('category-tree');
 
+        if (!categoriesData || Object.keys(categoriesData).length === 0) {
+            const noDataMsg = document.createElement('p');
+            noDataMsg.textContent = 'Không có dữ liệu danh mục. Vui lòng thêm dữ liệu vào thư mục assets và chạy "npm run scan".';
+            noDataMsg.style.color = 'red';
+            categoriesContainer.appendChild(noDataMsg);
+            return;
+        }
+
         for (const categoryName in categoriesData) {
             const items = categoriesData[categoryName];
-            if (items.length > 0) {
+            if (items && items.length > 0) {
                 // Create category node
                 const categoryNode = document.createElement('li');
                 categoryNode.classList.add('category-node');
@@ -125,6 +133,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     categoryNode.classList.toggle('expanded');
                 });
 
+                treeRoot.appendChild(categoryNode);
+            } else {
+                // Create empty category node with message
+                const categoryNode = document.createElement('li');
+                categoryNode.classList.add('category-node');
+
+                const categoryTitle = document.createElement('span');
+                categoryTitle.textContent = categoryName;
+                categoryTitle.classList.add('category-title');
+                categoryNode.appendChild(categoryTitle);
+
+                const emptyMsg = document.createElement('p');
+                emptyMsg.textContent = 'Không có mục nào trong danh mục này';
+                emptyMsg.style.fontSize = '0.9em';
+                emptyMsg.style.fontStyle = 'italic';
+                emptyMsg.style.marginLeft = '20px';
+
+                categoryNode.appendChild(emptyMsg);
                 treeRoot.appendChild(categoryNode);
             }
         }

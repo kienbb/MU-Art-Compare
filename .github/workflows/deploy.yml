@@ -24,14 +24,37 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Check directory structure
+        run: |
+          echo "Checking directory structure..."
+          ls -la
+          echo "Checking public directory..."
+          mkdir -p public
+          ls -la public || echo "Public directory doesn't exist yet"
+          echo "Checking assets directory..."
+          ls -la assets || echo "Assets directory doesn't exist"
+
       - name: Run scan script
         run: node scan_assets.js
+
+      - name: Verify data.json existence
+        run: |
+          echo "Checking if data.json was created..."
+          ls -la public
+          if [ ! -f "public/data.json" ]; then
+            echo "WARNING: data.json not found, creating minimal version"
+            echo '{"categories":{"Map":[],"NPC":[],"Monster":[],"Outfit":[]}}' > public/data.json
+          fi
         
       - name: Build
         run: npm run build
         
       - name: Copy data.json to dist
-        run: cp public/data.json dist/
+        run: |
+          cp public/data.json dist/ || echo "Failed to copy data.json, creating default file"
+          if [ ! -f "dist/data.json" ]; then
+            echo '{"categories":{"Map":[],"NPC":[],"Monster":[],"Outfit":[]}}' > dist/data.json
+          fi
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
