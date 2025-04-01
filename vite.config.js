@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/MU-Art-Compare/', // IMPORTANT: Change to your GitHub repository name
   build: {
-    outDir: 'dist' // Output directory for build files
+    outDir: 'docs' // Output directory for build files (changed from 'dist' to 'docs')
   },
   server: {
     open: true // Automatically open the app in the browser on dev start
