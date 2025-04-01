@@ -1,0 +1,90 @@
+{
+  "categories": {
+    "Map": [
+      {
+        "id": "001",
+        "name": "lorencia",
+        "folderName": "001_lorencia",
+        "category": "Map",
+        "images": {
+          "awaken": [
+            "assets/MU_Awaken/Map/001_lorencia/20250123-151455 (2).jpg",
+            "assets/MU_Awaken/Map/001_lorencia/20250123-151455.jpg"
+          ],
+          "origin": [
+            "assets/MU_Origin/Map/001_lorencia/20250123-151455 (2).jpg",
+            "assets/MU_Origin/Map/001_lorencia/20250123-151455.jpg"
+          ]
+        }
+      }
+    ],
+    "NPC": [
+      {
+        "id": "001",
+        "name": "yeye",
+        "folderName": "001_yeye",
+        "category": "NPC",
+        "images": {
+          "awaken": [
+            "assets/MU_Awaken/NPC/001_yeye/20250123-151455 (2).jpg",
+            "assets/MU_Awaken/NPC/001_yeye/20250123-151455.jpg"
+          ],
+          "origin": [
+            "assets/MU_Origin/NPC/001_yeye/20250123-151455 (2).jpg",
+            "assets/MU_Origin/NPC/001_yeye/20250123-151455.jpg"
+          ]
+        }
+      }
+    ],
+    "Monster": [
+      {
+        "id": "001",
+        "name": "bo sua",
+        "folderName": "001_bo_sua",
+        "category": "Monster",
+        "images": {
+          "awaken": [
+            "assets/MU_Awaken/Monster/001_bo_sua/20250123-151455 (2).jpg"
+          ],
+          "origin": [
+            "assets/MU_Origin/Monster/001_bo_sua/20250123-151455.jpg"
+          ]
+        }
+      },
+      {
+        "id": "001",
+        "name": "nhen",
+        "folderName": "001_nhen",
+        "category": "Monster",
+        "images": {
+          "awaken": [
+            "assets/MU_Awaken/Monster/001_nhen/20250123-151455 (2).jpg",
+            "assets/MU_Awaken/Monster/001_nhen/20250123-151455.jpg"
+          ],
+          "origin": [
+            "assets/MU_Origin/Monster/001_nhen/20250123-151455 (2).jpg",
+            "assets/MU_Origin/Monster/001_nhen/20250123-151455.jpg"
+          ]
+        }
+      }
+    ],
+    "Outfit": [
+      {
+        "id": "001",
+        "name": "wing",
+        "folderName": "001_wing",
+        "category": "Outfit",
+        "images": {
+          "awaken": [
+            "assets/MU_Awaken/Outfit/001_wing/20250123-151455 (2).jpg",
+            "assets/MU_Awaken/Outfit/001_wing/20250123-151455.jpg"
+          ],
+          "origin": [
+            "assets/MU_Origin/Outfit/001_wing/20250123-151455 (2).jpg",
+            "assets/MU_Origin/Outfit/001_wing/20250123-151455.jpg"
+          ]
+        }
+      }
+    ]
+  }
+}
