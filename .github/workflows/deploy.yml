@@ -45,16 +45,23 @@ jobs:
             echo "WARNING: data.json not found, creating minimal version"
             echo '{"categories":{"Map":[],"NPC":[],"Monster":[],"Outfit":[]}}' > public/data.json
           fi
+          echo "Content of data.json:"
+          cat public/data.json
         
       - name: Build
         run: npm run build
         
-      - name: Copy data.json to dist
+      - name: Copy data.json to dist and verify
         run: |
+          echo "Copying data.json to dist..."
           cp public/data.json dist/ || echo "Failed to copy data.json, creating default file"
           if [ ! -f "dist/data.json" ]; then
             echo '{"categories":{"Map":[],"NPC":[],"Monster":[],"Outfit":[]}}' > dist/data.json
           fi
+          echo "Verifying dist/data.json exists..."
+          ls -la dist/
+          echo "Content of dist/data.json:"
+          cat dist/data.json
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

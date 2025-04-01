@@ -64,9 +64,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to fetch data and initialize the page
     async function fetchData() {
         try {
-            // Use import.meta.env.BASE_URL to get the configured base path from Vite
-            // Or use a relative path that works regardless of base path configuration
-            const response = await fetch('./data.json');
+            // Get the base URL dynamically
+            const baseUrl = document.baseURI ? new URL('./', document.baseURI).href : '/';
+            const dataUrl = new URL('data.json', baseUrl).href;
+            
+            console.log('Attempting to fetch data from:', dataUrl);
+            
+            const response = await fetch(dataUrl);
             if (!response.ok) {
                 console.error(`Failed to fetch data.json. Status: ${response.status}, StatusText: ${response.statusText}`);
                 const responseText = await response.text();
@@ -192,6 +196,9 @@ document.addEventListener('DOMContentLoaded', () => {
         title.textContent = versionName;
         container.appendChild(title);
 
+        // Get the base URL dynamically
+        const baseUrl = document.baseURI ? new URL('./', document.baseURI).href : '/';
+
         if (images.length > 0) {
             images.forEach(imgPath => {
                 // Create a fixed-size container for the image
@@ -201,7 +208,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Create and add the image to the container
                 const img = document.createElement('img');
-                img.src = `./${imgPath}`;
+                // Ensure the image path is correctly resolved with the base URL
+                const imgUrl = new URL(imgPath, baseUrl).href;
+                img.src = imgUrl;
                 img.alt = `${versionName} image`;
                 previewContainer.appendChild(img);
             });
