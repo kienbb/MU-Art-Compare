@@ -68,19 +68,47 @@ document.addEventListener('DOMContentLoaded', () => {
             const baseUrl = document.baseURI ? new URL('./', document.baseURI).href : '/';
             const dataUrl = new URL('data.json', baseUrl).href;
             
-            console.log('Attempting to fetch data from:', dataUrl);
+            console.log('Attempting to fetch data from primary location:', dataUrl);
             
-            const response = await fetch(dataUrl);
-            if (!response.ok) {
-                console.error(`Failed to fetch data.json. Status: ${response.status}, StatusText: ${response.statusText}`);
-                const responseText = await response.text();
-                console.error("Response body (if available):", responseText);
-                throw new Error(`HTTP error! status: ${response.status}`);
+            try {
+                const response = await fetch(dataUrl);
+                if (response.ok) {
+                    currentData = await response.json();
+                    populateTreeSidebar(currentData.categories);
+                    collectAllItems(currentData.categories);
+                    return;
+                }
+                console.error(`Failed to fetch from primary location. Status: ${response.status}`);
+            } catch (primaryError) {
+                console.error("Error with primary fetch:", primaryError);
             }
-            currentData = await response.json();
-            // Use the new function to populate the tree
-            populateTreeSidebar(currentData.categories);
-            collectAllItems(currentData.categories);
+            
+            // Try alternative locations if primary fails
+            const alternativeUrls = [
+                '/MU-Art-Compare/data.json',
+                './data.json',
+                '../data.json',
+                'https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/docs/data.json'
+            ];
+            
+            for (const url of alternativeUrls) {
+                console.log(`Attempting alternative location: ${url}`);
+                try {
+                    const altResponse = await fetch(url);
+                    if (altResponse.ok) {
+                        console.log(`Successfully loaded data from: ${url}`);
+                        currentData = await altResponse.json();
+                        populateTreeSidebar(currentData.categories);
+                        collectAllItems(currentData.categories);
+                        return;
+                    }
+                } catch (altError) {
+                    console.error(`Error with alternative fetch from ${url}:`, altError);
+                }
+            }
+            
+            // If we reach here, all attempts failed
+            throw new Error("Failed to fetch data from all locations");
         } catch (error) {
             console.error("Could not fetch data:", error);
             categoriesContainer.innerHTML = `<p style="color: red;">Lỗi tải dữ liệu (data.json). Hãy đảm bảo bạn đã chạy 'npm run scan' thành công và kiểm tra Console (F12) trong trình duyệt để biết thêm chi tiết.</p>`;
