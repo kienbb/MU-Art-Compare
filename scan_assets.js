@@ -40,7 +40,7 @@ function scanAssets() {
 
     categories.forEach(category => {
         data.categories[category] = [];
-        const items = new Map(); // Use a Map to collect items across versions
+        const items = new Map();
 
         gameVersions.forEach(version => {
             const categoryPath = path.join(assetsDir, version, category);
@@ -58,15 +58,14 @@ function scanAssets() {
                         const { id, name } = getItemIdAndName(itemFolder);
                         console.log(`Processing item: ${itemFolder} (ID: ${id}, Name: ${name})`);
                         
-                        // Use full folder name as part of the key to avoid collisions with same ID
-                        const itemKey = `${category}_${itemFolder}`; 
+                        const itemKey = `${category}_${itemFolder}`;
                         const itemPath = path.join(categoryPath, itemFolder);
                         let imageFiles = [];
                         try {
                              imageFiles = fs.readdirSync(itemPath)
                                                .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-                                               // Use forward slashes for web paths
-                                               .map(file => `assets/${version}/${category}/${itemFolder}/${file}`);
+                                               // Generate GitHub raw URLs
+                                               .map(file => `https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/${version}/${category}/${itemFolder}/${file}`);
                              console.log(`Found ${imageFiles.length} images for ${itemFolder}`);
                         } catch (imgError) {
                             console.warn(`Could not read images in ${itemPath}: ${imgError.message}`);
@@ -76,7 +75,7 @@ function scanAssets() {
                             items.set(itemKey, {
                                 id: id,
                                 name: name,
-                                folderName: itemFolder, // Keep original folder name if needed
+                                folderName: itemFolder,
                                 category: category,
                                 images: {
                                     awaken: [],
@@ -100,25 +99,22 @@ function scanAssets() {
             }
         });
 
-        // Convert Map values to array for the category
         data.categories[category] = Array.from(items.values());
         console.log(`Total items in ${category}: ${data.categories[category].length}`);
          
-        // Sort items within the category, by ID if available, otherwise by name
         data.categories[category].sort((a, b) => {
             const idA = parseInt(a.id, 10);
             const idB = parseInt(b.id, 10);
             if (!isNaN(idA) && !isNaN(idB)) {
                 return idA - idB;
             }
-            if (!isNaN(idA) && isNaN(idB)) return -1; // IDs come before non-IDs
-            if (isNaN(idA) && !isNaN(idB)) return 1;  // Non-IDs come after IDs
-            return a.name.localeCompare(b.name); // Fallback to name sort
+            if (!isNaN(idA) && isNaN(idB)) return -1;
+            if (isNaN(idA) && !isNaN(idB)) return 1;
+            return a.name.localeCompare(b.name);
         });
     });
 
     try {
-         // Ensure the output directory exists
         if (!fs.existsSync(outputDir)) {
             fs.mkdirSync(outputDir, { recursive: true });
         }

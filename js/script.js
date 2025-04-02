@@ -193,9 +193,6 @@ document.addEventListener('DOMContentLoaded', () => {
         title.textContent = versionName;
         container.appendChild(title);
 
-        // Get the base URL dynamically
-        const baseUrl = document.baseURI ? new URL('./', document.baseURI).href : '/';
-
         if (images.length > 0) {
             images.forEach(imgPath => {
                 // Create a fixed-size container for the image
@@ -205,9 +202,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Create and add the image to the container
                 const img = document.createElement('img');
-                // Ensure the image path is correctly resolved with the base URL
-                const imgUrl = new URL(imgPath, baseUrl).href;
-                img.src = imgUrl;
+                // Use the GitHub raw URL directly
+                img.src = imgPath;
                 img.alt = `${versionName} image`;
                 previewContainer.appendChild(img);
             });

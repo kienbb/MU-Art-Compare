@@ -8,12 +8,12 @@
         "category": "Map",
         "images": {
           "awaken": [
-            "assets/MU_Awaken/Map/001_lorencia/20250123-151455 (2).jpg",
-            "assets/MU_Awaken/Map/001_lorencia/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/001_lorencia/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/001_lorencia/20250123-151455.jpg"
           ],
           "origin": [
-            "assets/MU_Origin/Map/001_lorencia/20250123-151455 (2).jpg",
-            "assets/MU_Origin/Map/001_lorencia/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/001_lorencia/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/001_lorencia/20250123-151455.jpg"
           ]
         }
       }
@@ -26,12 +26,12 @@
         "category": "NPC",
         "images": {
           "awaken": [
-            "assets/MU_Awaken/NPC/001_yeye/20250123-151455 (2).jpg",
-            "assets/MU_Awaken/NPC/001_yeye/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001_yeye/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001_yeye/20250123-151455.jpg"
           ],
           "origin": [
-            "assets/MU_Origin/NPC/001_yeye/20250123-151455 (2).jpg",
-            "assets/MU_Origin/NPC/001_yeye/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001_yeye/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001_yeye/20250123-151455.jpg"
           ]
         }
       }
@@ -44,10 +44,10 @@
         "category": "Monster",
         "images": {
           "awaken": [
-            "assets/MU_Awaken/Monster/001_bo_sua/20250123-151455 (2).jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_bo_sua/20250123-151455 (2).jpg"
           ],
           "origin": [
-            "assets/MU_Origin/Monster/001_bo_sua/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_bo_sua/20250123-151455.jpg"
           ]
         }
       },
@@ -58,12 +58,12 @@
         "category": "Monster",
         "images": {
           "awaken": [
-            "assets/MU_Awaken/Monster/001_nhen/20250123-151455 (2).jpg",
-            "assets/MU_Awaken/Monster/001_nhen/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/20250123-151455.jpg"
           ],
           "origin": [
-            "assets/MU_Origin/Monster/001_nhen/20250123-151455 (2).jpg",
-            "assets/MU_Origin/Monster/001_nhen/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_nhen/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_nhen/20250123-151455.jpg"
           ]
         }
       }
@@ -76,12 +76,12 @@
         "category": "Outfit",
         "images": {
           "awaken": [
-            "assets/MU_Awaken/Outfit/001_wing/20250123-151455 (2).jpg",
-            "assets/MU_Awaken/Outfit/001_wing/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Outfit/001_wing/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Outfit/001_wing/20250123-151455.jpg"
           ],
           "origin": [
-            "assets/MU_Origin/Outfit/001_wing/20250123-151455 (2).jpg",
-            "assets/MU_Origin/Outfit/001_wing/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/001_wing/20250123-151455 (2).jpg",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/001_wing/20250123-151455.jpg"
           ]
         }
       }
