@@ -207,8 +207,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 const animInfo = modelContainer.querySelector('.animation-info');
                 if (animInfo && this.animations.length > 0) {
                     const anim = this.animations[this.currentAnimation];
-                    animInfo.textContent = `Animation: ${anim.name || 'Unknown'} (${this.currentAnimation + 1}/${this.animations.length})`;
+                    // Display animation name and make it more visible
+                    const animName = anim.name || `Animation ${this.currentAnimation + 1}`;
+                    animInfo.innerHTML = `<strong>Animation:</strong> ${animName}<br>(${this.currentAnimation + 1}/${this.animations.length})`;
                     animInfo.style.display = 'block';
+                    
+                    // Also log animation details for debugging
+                    console.log('Current animation:', {
+                        name: anim.name,
+                        duration: anim.duration,
+                        index: this.currentAnimation,
+                        total: this.animations.length
+                    });
                 } else if (animInfo) {
                     animInfo.style.display = 'none';
                 }
@@ -333,6 +343,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         uiContainer.appendChild(lightBtn);
         
+        // Animation name display
+        const animTitle = document.createElement('div');
+        animTitle.className = 'animation-title';
+        animTitle.textContent = 'Animation:';
+        animTitle.style.display = 'block';
+        uiContainer.appendChild(animTitle);
+        
         // Animation controls
         const animContainer = document.createElement('div');
         animContainer.className = 'animation-controls';
@@ -446,12 +463,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Handle animations if present
                 if (fbx.animations && fbx.animations.length > 0) {
+                    console.log('Model has animations:', fbx.animations.length);
+                    
+                    // Debug: log all animation names
+                    fbx.animations.forEach((anim, index) => {
+                        console.log(`Animation ${index}:`, anim.name || 'Unnamed', 'Duration:', anim.duration);
+                    });
+                    
                     modelViewer.mixer = new THREE.AnimationMixer(fbx);
                     modelViewer.animations = fbx.animations;
+                    
+                    // Make animation controls visible
+                    const animContainer = modelContainer.querySelector('.animation-controls');
+                    if (animContainer) {
+                        animContainer.style.display = 'flex';
+                    }
                     
                     // Play the first animation by default
                     modelViewer.currentAnimation = 0;
                     modelViewer.playAnimation(0);
+                } else {
+                    console.log('No animations found in model');
+                    // Hide animation controls if no animations
+                    const animContainer = modelContainer.querySelector('.animation-controls');
+                    if (animContainer) {
+                        animContainer.style.display = 'none';
+                    }
                 }
             },
             (xhr) => {
