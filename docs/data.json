@@ -316,7 +316,9 @@
           ]
         },
         "models": {
-          "awaken": [],
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/Monster_011.fbx"
+          ],
           "origin": []
         }
       }
