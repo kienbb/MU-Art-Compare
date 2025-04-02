@@ -125,15 +125,30 @@ h1 {
 
 #content {
     flex-grow: 1;
-    padding: 20px;
     height: 100%;
-    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
     background-color: var(--container-bg);
 }
 
-#content h2 {
-    margin-bottom: 20px;
+.content-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 20px;
+    background-color: var(--container-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.content-header h2 {
+    margin: 0;
     font-size: 1.3rem;
+}
+
+.content-body {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
 }
 
 #comparison-area {

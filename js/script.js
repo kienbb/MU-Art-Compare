@@ -90,6 +90,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const treeRoot = document.createElement('ul');
         treeRoot.classList.add('category-tree');
 
+        // Clear and setup content area structure
+        const content = document.getElementById('content');
+        content.innerHTML = `
+            <div class="content-header">
+                <h2>So sánh chi tiết</h2>
+            </div>
+            <div class="content-body">
+                <div id="comparison-area">
+                    <p id="no-item-selected">Chọn một mục từ danh sách bên trái để xem so sánh.</p>
+                </div>
+            </div>
+        `;
+
         if (!categoriesData || Object.keys(categoriesData).length === 0) {
             const noDataMsg = document.createElement('p');
             noDataMsg.textContent = 'Không có dữ liệu danh mục. Vui lòng thêm dữ liệu vào thư mục assets và chạy "npm run scan".';
@@ -170,11 +183,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Function to display comparison images
     function displayComparison(item) {
+        const comparisonArea = document.getElementById('comparison-area');
         comparisonArea.innerHTML = ''; // Clear previous comparison
-        if (noItemSelectedMessage) noItemSelectedMessage.style.display = 'none'; // Hide initial message
 
         // Update the title to include the selected item name
-        const contentTitle = document.querySelector('#content h2');
+        const contentTitle = document.querySelector('.content-header h2');
         contentTitle.textContent = `So sánh chi tiết - ${item.id ? item.id + ' - ' : ''}${item.name}`;
 
         // Create containers for each version
