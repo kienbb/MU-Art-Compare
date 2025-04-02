@@ -18,6 +18,48 @@ document.addEventListener('DOMContentLoaded', () => {
     let allItems = []; // To store all items for searching
     let currentData = null; // Store the fetched data
 
+    // Create popup elements
+    const popupOverlay = document.createElement('div');
+    popupOverlay.className = 'popup-overlay';
+    popupOverlay.innerHTML = `
+        <div class="popup-content">
+            <button class="popup-close">×</button>
+            <img class="popup-image" src="" alt="Enlarged image">
+        </div>
+    `;
+    document.body.appendChild(popupOverlay);
+
+    const popupImage = popupOverlay.querySelector('.popup-image');
+    const closeButton = popupOverlay.querySelector('.popup-close');
+
+    // Function to show popup
+    function showImagePopup(imageSrc) {
+        popupImage.src = imageSrc;
+        popupOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when popup is open
+    }
+
+    // Function to hide popup
+    function hideImagePopup() {
+        popupOverlay.classList.remove('active');
+        document.body.style.overflow = ''; // Restore scrolling
+    }
+
+    // Add event listeners for popup
+    closeButton.addEventListener('click', hideImagePopup);
+    popupOverlay.addEventListener('click', (e) => {
+        if (e.target === popupOverlay) {
+            hideImagePopup();
+        }
+    });
+
+    // Add keyboard support for closing popup
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && popupOverlay.classList.contains('active')) {
+            hideImagePopup();
+        }
+    });
+
     // Theme toggle functionality
     function initTheme() {
         // Check for saved theme preference or use system preference
@@ -219,9 +261,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Create and add the image to the container
                 const img = document.createElement('img');
-                // Use the GitHub raw URL directly
                 img.src = imgPath;
                 img.alt = `${versionName} image`;
+                
+                // Add click event for popup
+                previewContainer.addEventListener('click', () => {
+                    showImagePopup(imgPath);
+                });
+                
                 previewContainer.appendChild(img);
             });
         } else {
