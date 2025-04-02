@@ -8,23 +8,22 @@
         "category": "Map",
         "images": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_17_59.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_18_21.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_20_2.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_20_55.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_21_24.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_22_53.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_23_20.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_23_46.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_24_19.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_24_34.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_24_6.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_25_13.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_25_27.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_25_38.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_25_44.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_25_53.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/yongzhedalu_04-02-25-11_26_17.png"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_10_10.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_10_49.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_11_31.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_12_54.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_13_10.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_14_12.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_15_8.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_16_12.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_16_30.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_16_51.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_17_1.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_17_22.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_17_37.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_17_7.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_9_17.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/1_Lorencia/1_yongzhedalu_04-02-25-13_9_50.png"
           ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/1_Lorencia/yongzhedalu_04-02-25-11_17_59.png",
@@ -53,17 +52,7 @@
         "folderName": "2_Noria",
         "category": "Map",
         "images": {
-          "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_30_48.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_31_3.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_31_40.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_32_21.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_32_41.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_32_54.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_33_17.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_33_29.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/lvyexianzong_04-02-25-11_33_3.png"
-          ],
+          "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/2_Noria/lvyexianzong_04-02-25-11_30_48.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/2_Noria/lvyexianzong_04-02-25-11_31_3.png",
@@ -183,6 +172,25 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_37.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_59.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_8.png"
+          ]
+        }
+      },
+      {
+        "id": "8",
+        "name": "Icarus",
+        "folderName": "8_Icarus",
+        "category": "Map",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_43_0.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_43_51.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_44_16.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_44_27.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_44_43.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_44_55.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_45_21.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_45_4.png"
           ]
         }
       }
