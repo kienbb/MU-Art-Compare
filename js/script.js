@@ -129,12 +129,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Reset position
                 this.model.position.set(-center.x, -center.y, -center.z);
                 
-                // Position camera to face the front of the model (Z-axis)
+                // Position camera to face the front of the model (Z-axis in Unity is forward)
+                // In Three.js, we need to position camera at -Z to look toward +Z
                 const maxDim = Math.max(size.x, size.y, size.z);
                 const distance = maxDim * 2;
                 
-                // Position camera in front of the model
-                this.camera.position.set(0, size.y / 2, distance);
+                // Position camera in front of the model (looking toward +Z axis)
+                this.camera.position.set(0, size.y / 2, -distance);
                 this.camera.lookAt(new THREE.Vector3(0, size.y / 3, 0));
                 
                 // Update controls target to model center
@@ -242,6 +243,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const gridSize = 20;
         const gridDivisions = 20;
         modelViewer.grid = new THREE.GridHelper(gridSize, gridDivisions, 0x555555, 0x333333);
+        // Rotate grid to match Unity's Z-forward coordinate system
+        modelViewer.grid.rotation.x = Math.PI / 2; 
+        modelViewer.grid.position.y = 0;
         modelViewer.scene.add(modelViewer.grid);
         
         // Set up lighting
@@ -251,7 +255,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Directional light (sun-like)
         modelViewer.lights.directional = new THREE.DirectionalLight(0xffffff, 1);
-        modelViewer.lights.directional.position.set(5, 5, 5);
+        // Position directional light for Unity coordinate system (in front and above)
+        modelViewer.lights.directional.position.set(0, 5, -5);
         modelViewer.lights.directional.castShadow = true;
         modelViewer.lights.directional.shadow.mapSize.width = 1024;
         modelViewer.lights.directional.shadow.mapSize.height = 1024;
@@ -263,7 +268,8 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Point light (like a light bulb)
         modelViewer.lights.point = new THREE.PointLight(0xffffff, 1, 100);
-        modelViewer.lights.point.position.set(-5, 10, -5);
+        // Position point light for Unity coordinate system (to the side and above)
+        modelViewer.lights.point.position.set(5, 10, 0);
         modelViewer.lights.point.castShadow = true;
         modelViewer.scene.add(modelViewer.lights.point);
         
@@ -425,6 +431,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         child.receiveShadow = true;
                     }
                 });
+                
+                // Adjust model rotation to match Unity's coordinate system
+                // Unity: X=right, Y=up, Z=forward
+                // Three.js: X=right, Y=up, Z=out of screen
+                // Rotate 180 degrees around Y-axis to flip Z direction
+                fbx.rotation.y = Math.PI; // 180 degrees in radians
                 
                 // Add to scene
                 modelViewer.scene.add(fbx);
