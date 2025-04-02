@@ -171,7 +171,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to display comparison images
     function displayComparison(item) {
         comparisonArea.innerHTML = ''; // Clear previous comparison
-         if (noItemSelectedMessage) noItemSelectedMessage.style.display = 'none'; // Hide initial message
+        if (noItemSelectedMessage) noItemSelectedMessage.style.display = 'none'; // Hide initial message
+
+        // Update the title to include the selected item name
+        const contentTitle = document.querySelector('#content h2');
+        contentTitle.textContent = `So sánh chi tiết - ${item.id ? item.id + ' - ' : ''}${item.name}`;
 
         // Create containers for each version
         const awakenContainer = createImageContainer('MU Awaken', item.images.awaken);
@@ -181,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
         comparisonArea.appendChild(originContainer);
 
         // Highlight selected item in sidebar
-        highlightSelectedItem(item.category, item.id || item.name.replace(/ /g, '_'));
+        highlightSelectedItem(item);
     }
 
     // Helper function to create image container for a version
@@ -217,19 +221,26 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Function to highlight the selected item in the sidebar
-    function highlightSelectedItem(category, itemId) {
+    function highlightSelectedItem(item) {
+        // Remove previous highlight
         const previouslySelected = categoriesContainer.querySelector('.selected-item');
         if (previouslySelected) {
             previouslySelected.classList.remove('selected-item');
         }
-        // Update selector for the tree structure
-        const currentItemElement = categoriesContainer.querySelector(`.item-node[data-category="${category}"][data-item-id="${itemId}"]`);
-        if (currentItemElement) {
-            currentItemElement.classList.add('selected-item');
-            // Optionally expand the parent category if it's not already
-            const parentCategory = currentItemElement.closest('.category-node');
-            if (parentCategory && !parentCategory.classList.contains('expanded')) {
-                parentCategory.classList.add('expanded');
+
+        // Find the exact item using both category and full identifier
+        const itemIdentifier = `${item.id ? item.id + ' - ' : ''}${item.name}`;
+        const allItemNodes = categoriesContainer.querySelectorAll('.item-node');
+        
+        for (const node of allItemNodes) {
+            if (node.textContent === itemIdentifier && node.dataset.category === item.category) {
+                node.classList.add('selected-item');
+                // Ensure the parent category is expanded
+                const parentCategory = node.closest('.category-node');
+                if (parentCategory) {
+                    parentCategory.classList.add('expanded');
+                }
+                break; // Stop after finding the correct item
             }
         }
     }
