@@ -292,8 +292,12 @@
           ]
         },
         "models": {
-          "awaken": [],
-          "origin": []
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_bo_sua/Monster_002.fbx"
+          ],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_bo_sua/Monster_002.fbx"
+          ]
         }
       },
       {
