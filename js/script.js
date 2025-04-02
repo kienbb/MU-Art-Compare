@@ -6,6 +6,11 @@
 // 4. Displaying comparison images when an item is selected
 // 5. Toggling category visibility
 
+// Import Three.js and FBX loader
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     const categoriesContainer = document.getElementById('categories');
     const comparisonArea = document.getElementById('comparison-area');
@@ -17,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeText = document.getElementById('theme-text');
     let allItems = []; // To store all items for searching
     let currentData = null; // Store the fetched data
+    let modelViewer = null; // 3D model viewer instance
 
     // Create popup elements
     const popupOverlay = document.createElement('div');
@@ -24,19 +30,238 @@ document.addEventListener('DOMContentLoaded', () => {
     popupOverlay.innerHTML = `
         <div class="popup-content">
             <button class="popup-close">×</button>
-            <img class="popup-image" src="" alt="Enlarged image">
+            <div class="popup-container">
+                <img class="popup-image" src="" alt="Enlarged image" style="display: none;">
+                <div class="model-container" style="display: none;">
+                    <canvas class="model-canvas"></canvas>
+                </div>
+            </div>
         </div>
     `;
     document.body.appendChild(popupOverlay);
 
     const popupImage = popupOverlay.querySelector('.popup-image');
+    const modelContainer = popupOverlay.querySelector('.model-container');
+    const modelCanvas = popupOverlay.querySelector('.model-canvas');
     const closeButton = popupOverlay.querySelector('.popup-close');
 
-    // Function to show popup
+    // Function to show image popup
     function showImagePopup(imageSrc) {
         popupImage.src = imageSrc;
+        popupImage.style.display = 'block';
+        modelContainer.style.display = 'none';
         popupOverlay.classList.add('active');
         document.body.style.overflow = 'hidden'; // Prevent scrolling when popup is open
+    }
+
+    // Function to show 3D model popup
+    function show3DModelPopup(modelSrc) {
+        popupImage.style.display = 'none';
+        modelContainer.style.display = 'block';
+        popupOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        
+        // Initialize 3D viewer if needed
+        if (!modelViewer) {
+            initModel3DViewer();
+        }
+        
+        // Load the 3D model
+        loadModel(modelSrc);
+    }
+
+    // Function to initialize 3D viewer
+    function initModel3DViewer() {
+        modelViewer = {
+            scene: null,
+            camera: null,
+            renderer: null,
+            controls: null,
+            model: null,
+            clock: null,
+            mixer: null,
+            dispose: function() {
+                if (this.model) {
+                    this.scene.remove(this.model);
+                    // Dispose geometries and materials
+                    if (this.model.traverse) {
+                        this.model.traverse((child) => {
+                            if (child.isMesh) {
+                                child.geometry.dispose();
+                                if (child.material.isMaterial) {
+                                    disposeTextures(child.material);
+                                    child.material.dispose();
+                                } else if (Array.isArray(child.material)) {
+                                    child.material.forEach(material => {
+                                        disposeTextures(material);
+                                        material.dispose();
+                                    });
+                                }
+                            }
+                        });
+                    }
+                    this.model = null;
+                }
+                if (this.mixer) {
+                    this.mixer = null;
+                }
+            }
+        };
+
+        // Set up the scene
+        modelViewer.scene = new THREE.Scene();
+        modelViewer.scene.background = new THREE.Color(0x222222);
+
+        // Set up the camera
+        modelViewer.camera = new THREE.PerspectiveCamera(45, modelContainer.clientWidth / modelContainer.clientHeight, 0.1, 1000);
+        modelViewer.camera.position.set(5, 5, 5);
+        
+        // Set up the renderer
+        modelViewer.renderer = new THREE.WebGLRenderer({ 
+            canvas: modelCanvas,
+            antialias: true
+        });
+        modelViewer.renderer.setSize(modelContainer.clientWidth, modelContainer.clientHeight);
+        modelViewer.renderer.setPixelRatio(window.devicePixelRatio);
+        modelViewer.renderer.shadowMap.enabled = true;
+        
+        // Set up the controls
+        modelViewer.controls = new OrbitControls(modelViewer.camera, modelViewer.renderer.domElement);
+        modelViewer.controls.enableDamping = true;
+        modelViewer.controls.dampingFactor = 0.05;
+        
+        // Set up lighting
+        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
+        modelViewer.scene.add(ambientLight);
+        
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+        directionalLight.position.set(1, 1, 1);
+        directionalLight.castShadow = true;
+        modelViewer.scene.add(directionalLight);
+        
+        // Add a clock for animations
+        modelViewer.clock = new THREE.Clock();
+        
+        // Animation
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            // Update controls
+            modelViewer.controls.update();
+            
+            // Update any animations
+            if (modelViewer.mixer) {
+                modelViewer.mixer.update(modelViewer.clock.getDelta());
+            }
+            
+            // Render the scene
+            modelViewer.renderer.render(modelViewer.scene, modelViewer.camera);
+        }
+        
+        // Start the animation loop
+        animate();
+        
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            if (modelViewer.camera && modelViewer.renderer) {
+                modelViewer.camera.aspect = modelContainer.clientWidth / modelContainer.clientHeight;
+                modelViewer.camera.updateProjectionMatrix();
+                modelViewer.renderer.setSize(modelContainer.clientWidth, modelContainer.clientHeight);
+            }
+        });
+    }
+
+    // Helper function to dispose textures
+    function disposeTextures(material) {
+        if (material.map) material.map.dispose();
+        if (material.lightMap) material.lightMap.dispose();
+        if (material.bumpMap) material.bumpMap.dispose();
+        if (material.normalMap) material.normalMap.dispose();
+        if (material.specularMap) material.specularMap.dispose();
+        if (material.envMap) material.envMap.dispose();
+        if (material.alphaMap) material.alphaMap.dispose();
+        if (material.aoMap) material.aoMap.dispose();
+        if (material.displacementMap) material.displacementMap.dispose();
+        if (material.emissiveMap) material.emissiveMap.dispose();
+        if (material.metalnessMap) material.metalnessMap.dispose();
+        if (material.roughnessMap) material.roughnessMap.dispose();
+    }
+
+    // Function to load a 3D model
+    function loadModel(modelSrc) {
+        // Show loading message
+        modelContainer.innerHTML = '<div class="loading-spinner">Đang tải mô hình 3D...</div>';
+        
+        // Clear previous model
+        if (modelViewer.model) {
+            modelViewer.dispose();
+        }
+        
+        // Create a new canvas
+        modelContainer.innerHTML = '';
+        const newCanvas = document.createElement('canvas');
+        newCanvas.className = 'model-canvas';
+        modelContainer.appendChild(newCanvas);
+        
+        // Update renderer with new canvas
+        modelViewer.renderer = new THREE.WebGLRenderer({ 
+            canvas: newCanvas,
+            antialias: true
+        });
+        modelViewer.renderer.setSize(modelContainer.clientWidth, modelContainer.clientHeight);
+        modelViewer.renderer.setPixelRatio(window.devicePixelRatio);
+        modelViewer.renderer.shadowMap.enabled = true;
+        
+        // Update controls with new domElement
+        modelViewer.controls = new OrbitControls(modelViewer.camera, modelViewer.renderer.domElement);
+        modelViewer.controls.enableDamping = true;
+        modelViewer.controls.dampingFactor = 0.05;
+        
+        // Load the model
+        const loader = new FBXLoader();
+        loader.load(
+            modelSrc,
+            (fbx) => {
+                // Successfully loaded the model
+                modelViewer.model = fbx;
+                
+                // Center the model
+                const box = new THREE.Box3().setFromObject(fbx);
+                const center = box.getCenter(new THREE.Vector3());
+                const size = box.getSize(new THREE.Vector3());
+                
+                // Reset position
+                fbx.position.set(-center.x, -center.y, -center.z);
+                
+                // Set appropriate camera distance
+                const maxDim = Math.max(size.x, size.y, size.z);
+                const distance = maxDim * 1.5;
+                modelViewer.camera.position.set(distance, distance, distance);
+                modelViewer.camera.lookAt(new THREE.Vector3(0, 0, 0));
+                
+                // Add to scene
+                modelViewer.scene.add(fbx);
+                
+                // Handle animations if present
+                if (fbx.animations && fbx.animations.length > 0) {
+                    modelViewer.mixer = new THREE.AnimationMixer(fbx);
+                    const action = modelViewer.mixer.clipAction(fbx.animations[0]);
+                    action.play();
+                }
+                
+                // Reset controls
+                modelViewer.controls.reset();
+            },
+            (xhr) => {
+                // Progress callback
+                console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+            },
+            (error) => {
+                // Error callback
+                console.error('Error loading model:', error);
+                modelContainer.innerHTML = '<div class="error-message">Không thể tải mô hình 3D</div>';
+            }
+        );
     }
 
     // Function to hide popup
@@ -233,8 +458,8 @@ document.addEventListener('DOMContentLoaded', () => {
         contentTitle.textContent = `So sánh chi tiết - ${item.id ? item.id + ' - ' : ''}${item.name}`;
 
         // Create containers for each version
-        const awakenContainer = createImageContainer('MU Awaken', item.images.awaken);
-        const originContainer = createImageContainer('MU Origin', item.images.origin);
+        const awakenContainer = createImageContainer('MU Awaken', item.images.awaken, item.models?.awaken);
+        const originContainer = createImageContainer('MU Origin', item.images.origin, item.models?.origin);
 
         comparisonArea.appendChild(awakenContainer);
         comparisonArea.appendChild(originContainer);
@@ -244,7 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Helper function to create image container for a version
-    function createImageContainer(versionName, images) {
+    function createImageContainer(versionName, images, models) {
         const container = document.createElement('div');
         container.classList.add('image-container');
 
@@ -252,7 +477,12 @@ document.addEventListener('DOMContentLoaded', () => {
         title.textContent = versionName;
         container.appendChild(title);
 
-        if (images.length > 0) {
+        // Add images section
+        if (images && images.length > 0) {
+            const imagesTitle = document.createElement('h5');
+            imagesTitle.textContent = 'Hình ảnh';
+            container.appendChild(imagesTitle);
+
             images.forEach(imgPath => {
                 // Create a fixed-size container for the image
                 const previewContainer = document.createElement('div');
@@ -271,10 +501,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 previewContainer.appendChild(img);
             });
-        } else {
-            const noImageText = document.createElement('p');
-            noImageText.textContent = 'Không có hình ảnh.';
-            container.appendChild(noImageText);
+        }
+
+        // Add 3D models section if available
+        if (models && models.length > 0) {
+            const modelsTitle = document.createElement('h5');
+            modelsTitle.textContent = 'Mô hình 3D';
+            container.appendChild(modelsTitle);
+
+            models.forEach(modelPath => {
+                // Create a preview container for the model
+                const modelPreviewContainer = document.createElement('div');
+                modelPreviewContainer.classList.add('model-preview-container');
+                container.appendChild(modelPreviewContainer);
+                
+                // Create model icon/preview
+                const modelIcon = document.createElement('div');
+                modelIcon.classList.add('model-icon');
+                modelIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64"><path fill="currentColor" d="M12 1l8.217 4.895v9.478L12 19.992l-8.217-4.619V5.895L12 1zm0 2.13L5.393 6.787v7.604L12 17.869l6.607-3.478V6.787L12 3.13z"/></svg>';
+                
+                // Add model file name
+                const modelName = document.createElement('span');
+                modelName.textContent = modelPath.split('/').pop();
+                
+                // Add click event for 3D viewer
+                modelPreviewContainer.addEventListener('click', () => {
+                    show3DModelPopup(modelPath);
+                });
+                
+                modelPreviewContainer.appendChild(modelIcon);
+                modelPreviewContainer.appendChild(modelName);
+            });
+        }
+
+        // If no images or models
+        if ((!images || images.length === 0) && (!models || models.length === 0)) {
+            const noContentText = document.createElement('p');
+            noContentText.textContent = 'Không có dữ liệu.';
+            container.appendChild(noContentText);
         }
 
         return container;

@@ -61,14 +61,23 @@ function scanAssets() {
                         const itemKey = `${category}_${itemFolder}`;
                         const itemPath = path.join(categoryPath, itemFolder);
                         let imageFiles = [];
+                        let modelFiles = [];
                         try {
-                             imageFiles = fs.readdirSync(itemPath)
-                                               .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
-                                               // Generate GitHub raw URLs
-                                               .map(file => `https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/${version}/${category}/${itemFolder}/${file}`);
-                             console.log(`Found ${imageFiles.length} images for ${itemFolder}`);
+                             const allFiles = fs.readdirSync(itemPath);
+                             
+                             // Process image files
+                             imageFiles = allFiles
+                                .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file))
+                                .map(file => `https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/${version}/${category}/${itemFolder}/${file}`);
+                             
+                             // Process 3D model files
+                             modelFiles = allFiles
+                                .filter(file => /\.(fbx|glb|gltf)$/i.test(file))
+                                .map(file => `https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/${version}/${category}/${itemFolder}/${file}`);
+                             
+                             console.log(`Found ${imageFiles.length} images and ${modelFiles.length} 3D models for ${itemFolder}`);
                         } catch (imgError) {
-                            console.warn(`Could not read images in ${itemPath}: ${imgError.message}`);
+                            console.warn(`Could not read files in ${itemPath}: ${imgError.message}`);
                         }
 
                         if (!items.has(itemKey)) {
@@ -80,6 +89,10 @@ function scanAssets() {
                                 images: {
                                     awaken: [],
                                     origin: []
+                                },
+                                models: {
+                                    awaken: [],
+                                    origin: []
                                 }
                             });
                         }
@@ -87,8 +100,10 @@ function scanAssets() {
                         const currentItem = items.get(itemKey);
                         if (version === 'MU_Awaken') {
                             currentItem.images.awaken = imageFiles;
+                            currentItem.models.awaken = modelFiles;
                         } else if (version === 'MU_Origin') {
                             currentItem.images.origin = imageFiles;
+                            currentItem.models.origin = modelFiles;
                         }
                     });
                 } catch (err) {

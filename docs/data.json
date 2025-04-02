@@ -44,6 +44,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/1_Lorencia/yongzhedalu_04-02-25-11_25_53.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/1_Lorencia/yongzhedalu_04-02-25-11_26_17.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -64,6 +68,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/2_Noria/lvyexianzong_04-02-25-11_33_29.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/2_Noria/lvyexianzong_04-02-25-11_33_3.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -100,6 +108,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/3_Devias/MapPreview_04-02-25-11_39_3.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/3_Devias/MapPreview_04-02-25-11_39_32.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -119,6 +131,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-12_14_11.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-12_15_21.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -134,6 +150,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_20_38.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_21_17.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -153,6 +173,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_27_48.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_28_5.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -173,6 +197,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_59.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_8.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -192,6 +220,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_45_21.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_45_4.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -202,6 +234,10 @@
         "images": {
           "awaken": [],
           "origin": []
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -210,6 +246,10 @@
         "folderName": "10_KanturuRuins",
         "category": "Map",
         "images": {
+          "awaken": [],
+          "origin": []
+        },
+        "models": {
           "awaken": [],
           "origin": []
         }
@@ -230,6 +270,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001_yeye/20250123-151455 (2).jpg",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001_yeye/20250123-151455.jpg"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       }
     ],
@@ -246,6 +290,10 @@
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_bo_sua/20250123-151455.jpg"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       },
       {
@@ -262,6 +310,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_nhen/20250123-151455 (2).jpg",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_nhen/20250123-151455.jpg"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       }
     ],
@@ -280,6 +332,10 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/001_wing/20250123-151455 (2).jpg",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/001_wing/20250123-151455.jpg"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       }
     ]
