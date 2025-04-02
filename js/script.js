@@ -80,6 +80,17 @@ document.addEventListener('DOMContentLoaded', () => {
             model: null,
             clock: null,
             mixer: null,
+            animations: [],
+            currentAnimation: 0,
+            grid: null,
+            lights: {
+                ambient: null,
+                directional: null,
+                hemisphere: null,
+                spot: null,
+                point: null,
+                enabled: true
+            },
             dispose: function() {
                 if (this.model) {
                     this.scene.remove(this.model);
@@ -105,6 +116,101 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (this.mixer) {
                     this.mixer = null;
                 }
+                this.animations = [];
+            },
+            setDefaultView: function() {
+                if (!this.model) return;
+                
+                // Get model bounding box
+                const box = new THREE.Box3().setFromObject(this.model);
+                const center = box.getCenter(new THREE.Vector3());
+                const size = box.getSize(new THREE.Vector3());
+                
+                // Reset position
+                this.model.position.set(-center.x, -center.y, -center.z);
+                
+                // Position camera to face the front of the model (Z-axis)
+                const maxDim = Math.max(size.x, size.y, size.z);
+                const distance = maxDim * 2;
+                
+                // Position camera in front of the model
+                this.camera.position.set(0, size.y / 2, distance);
+                this.camera.lookAt(new THREE.Vector3(0, size.y / 3, 0));
+                
+                // Update controls target to model center
+                this.controls.target.set(0, size.y / 3, 0);
+                this.controls.update();
+            },
+            toggleLights: function() {
+                this.lights.enabled = !this.lights.enabled;
+                
+                // Toggle ambient light
+                if (this.lights.ambient) {
+                    this.lights.ambient.intensity = this.lights.enabled ? 0.5 : 0;
+                }
+                
+                // Toggle directional light
+                if (this.lights.directional) {
+                    this.lights.directional.intensity = this.lights.enabled ? 1.0 : 0;
+                }
+                
+                // Toggle hemisphere light
+                if (this.lights.hemisphere) {
+                    this.lights.hemisphere.intensity = this.lights.enabled ? 1.0 : 0;
+                }
+                
+                // Toggle spot light
+                if (this.lights.spot) {
+                    this.lights.spot.intensity = this.lights.enabled ? 1.0 : 0;
+                }
+                
+                // Toggle point light
+                if (this.lights.point) {
+                    this.lights.point.intensity = this.lights.enabled ? 1.0 : 0;
+                }
+                
+                // Update light button text
+                const lightBtn = modelContainer.querySelector('.light-toggle');
+                if (lightBtn) {
+                    lightBtn.textContent = this.lights.enabled ? 'Tắt đèn' : 'Bật đèn';
+                }
+            },
+            playAnimation: function(index) {
+                if (!this.mixer || this.animations.length === 0) return;
+                
+                // Stop all current animations
+                this.mixer.stopAllAction();
+                
+                // Validate index
+                this.currentAnimation = Math.max(0, Math.min(index, this.animations.length - 1));
+                
+                // Play the selected animation
+                const action = this.mixer.clipAction(this.animations[this.currentAnimation]);
+                action.reset();
+                action.setLoop(THREE.LoopRepeat);
+                action.clampWhenFinished = false;
+                action.play();
+                
+                // Update animation info
+                this.updateAnimationInfo();
+            },
+            nextAnimation: function() {
+                this.currentAnimation = (this.currentAnimation + 1) % this.animations.length;
+                this.playAnimation(this.currentAnimation);
+            },
+            prevAnimation: function() {
+                this.currentAnimation = (this.currentAnimation - 1 + this.animations.length) % this.animations.length;
+                this.playAnimation(this.currentAnimation);
+            },
+            updateAnimationInfo: function() {
+                const animInfo = modelContainer.querySelector('.animation-info');
+                if (animInfo && this.animations.length > 0) {
+                    const anim = this.animations[this.currentAnimation];
+                    animInfo.textContent = `Animation: ${anim.name || 'Unknown'} (${this.currentAnimation + 1}/${this.animations.length})`;
+                    animInfo.style.display = 'block';
+                } else if (animInfo) {
+                    animInfo.style.display = 'none';
+                }
             }
         };
 
@@ -124,23 +230,48 @@ document.addEventListener('DOMContentLoaded', () => {
         modelViewer.renderer.setSize(modelContainer.clientWidth, modelContainer.clientHeight);
         modelViewer.renderer.setPixelRatio(window.devicePixelRatio);
         modelViewer.renderer.shadowMap.enabled = true;
+        modelViewer.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
         
         // Set up the controls
         modelViewer.controls = new OrbitControls(modelViewer.camera, modelViewer.renderer.domElement);
         modelViewer.controls.enableDamping = true;
         modelViewer.controls.dampingFactor = 0.05;
+        modelViewer.controls.maxDistance = 100;
+        
+        // Set up the grid helper
+        const gridSize = 20;
+        const gridDivisions = 20;
+        modelViewer.grid = new THREE.GridHelper(gridSize, gridDivisions, 0x555555, 0x333333);
+        modelViewer.scene.add(modelViewer.grid);
         
         // Set up lighting
-        const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
-        modelViewer.scene.add(ambientLight);
+        // Ambient light
+        modelViewer.lights.ambient = new THREE.AmbientLight(0xffffff, 0.5);
+        modelViewer.scene.add(modelViewer.lights.ambient);
         
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
-        directionalLight.position.set(1, 1, 1);
-        directionalLight.castShadow = true;
-        modelViewer.scene.add(directionalLight);
+        // Directional light (sun-like)
+        modelViewer.lights.directional = new THREE.DirectionalLight(0xffffff, 1);
+        modelViewer.lights.directional.position.set(5, 5, 5);
+        modelViewer.lights.directional.castShadow = true;
+        modelViewer.lights.directional.shadow.mapSize.width = 1024;
+        modelViewer.lights.directional.shadow.mapSize.height = 1024;
+        modelViewer.scene.add(modelViewer.lights.directional);
+
+        // Hemisphere light (sky and ground)
+        modelViewer.lights.hemisphere = new THREE.HemisphereLight(0xffffff, 0x444444, 1);
+        modelViewer.scene.add(modelViewer.lights.hemisphere);
+        
+        // Point light (like a light bulb)
+        modelViewer.lights.point = new THREE.PointLight(0xffffff, 1, 100);
+        modelViewer.lights.point.position.set(-5, 10, -5);
+        modelViewer.lights.point.castShadow = true;
+        modelViewer.scene.add(modelViewer.lights.point);
         
         // Add a clock for animations
         modelViewer.clock = new THREE.Clock();
+        
+        // Create control UI for model viewer
+        createModelViewerUI();
         
         // Animation
         function animate() {
@@ -169,6 +300,65 @@ document.addEventListener('DOMContentLoaded', () => {
                 modelViewer.renderer.setSize(modelContainer.clientWidth, modelContainer.clientHeight);
             }
         });
+    }
+
+    // Create UI controls for model viewer
+    function createModelViewerUI() {
+        // Create UI container
+        const uiContainer = document.createElement('div');
+        uiContainer.className = 'model-controls';
+        modelContainer.appendChild(uiContainer);
+        
+        // Reset camera button
+        const resetBtn = document.createElement('button');
+        resetBtn.className = 'model-control-btn reset-camera';
+        resetBtn.textContent = 'Reset Camera';
+        resetBtn.addEventListener('click', () => {
+            if (modelViewer) modelViewer.setDefaultView();
+        });
+        uiContainer.appendChild(resetBtn);
+        
+        // Toggle lights button
+        const lightBtn = document.createElement('button');
+        lightBtn.className = 'model-control-btn light-toggle';
+        lightBtn.textContent = 'Tắt đèn';
+        lightBtn.addEventListener('click', () => {
+            if (modelViewer) modelViewer.toggleLights();
+        });
+        uiContainer.appendChild(lightBtn);
+        
+        // Animation controls
+        const animContainer = document.createElement('div');
+        animContainer.className = 'animation-controls';
+        
+        // Previous animation
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'model-control-btn prev-animation';
+        prevBtn.textContent = '←';
+        prevBtn.title = 'Previous Animation';
+        prevBtn.addEventListener('click', () => {
+            if (modelViewer) modelViewer.prevAnimation();
+        });
+        
+        // Animation info
+        const animInfo = document.createElement('span');
+        animInfo.className = 'animation-info';
+        animInfo.textContent = 'No animations';
+        animInfo.style.display = 'none';
+        
+        // Next animation
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'model-control-btn next-animation';
+        nextBtn.textContent = '→';
+        nextBtn.title = 'Next Animation';
+        nextBtn.addEventListener('click', () => {
+            if (modelViewer) modelViewer.nextAnimation();
+        });
+        
+        animContainer.appendChild(prevBtn);
+        animContainer.appendChild(animInfo);
+        animContainer.appendChild(nextBtn);
+        uiContainer.appendChild(animContainer);
     }
 
     // Helper function to dispose textures
@@ -217,6 +407,9 @@ document.addEventListener('DOMContentLoaded', () => {
         modelViewer.controls.enableDamping = true;
         modelViewer.controls.dampingFactor = 0.05;
         
+        // Recreate the UI
+        createModelViewerUI();
+        
         // Load the model
         const loader = new FBXLoader();
         loader.load(
@@ -225,32 +418,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Successfully loaded the model
                 modelViewer.model = fbx;
                 
-                // Center the model
-                const box = new THREE.Box3().setFromObject(fbx);
-                const center = box.getCenter(new THREE.Vector3());
-                const size = box.getSize(new THREE.Vector3());
-                
-                // Reset position
-                fbx.position.set(-center.x, -center.y, -center.z);
-                
-                // Set appropriate camera distance
-                const maxDim = Math.max(size.x, size.y, size.z);
-                const distance = maxDim * 1.5;
-                modelViewer.camera.position.set(distance, distance, distance);
-                modelViewer.camera.lookAt(new THREE.Vector3(0, 0, 0));
+                // Setup shadows for all meshes
+                fbx.traverse((child) => {
+                    if (child.isMesh) {
+                        child.castShadow = true;
+                        child.receiveShadow = true;
+                    }
+                });
                 
                 // Add to scene
                 modelViewer.scene.add(fbx);
                 
+                // Set default view
+                modelViewer.setDefaultView();
+                
                 // Handle animations if present
                 if (fbx.animations && fbx.animations.length > 0) {
                     modelViewer.mixer = new THREE.AnimationMixer(fbx);
-                    const action = modelViewer.mixer.clipAction(fbx.animations[0]);
-                    action.play();
+                    modelViewer.animations = fbx.animations;
+                    
+                    // Play the first animation by default
+                    modelViewer.currentAnimation = 0;
+                    modelViewer.playAnimation(0);
                 }
-                
-                // Reset controls
-                modelViewer.controls.reset();
             },
             (xhr) => {
                 // Progress callback
