@@ -56,7 +56,13 @@
         "folderName": "2_Noria",
         "category": "Map",
         "images": {
-          "awaken": [],
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/3_xianzonglinyiceng_04-02-25-15_43_18.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/3_xianzonglinyiceng_04-02-25-15_43_31.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/3_xianzonglinyiceng_04-02-25-15_43_50.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/3_xianzonglinyiceng_04-02-25-15_44_25.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/2_Noria/3_xianzonglinyiceng_04-02-25-15_44_4.png"
+          ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/2_Noria/lvyexianzong_04-02-25-11_30_48.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/2_Noria/lvyexianzong_04-02-25-11_31_3.png",
@@ -317,7 +323,7 @@
         },
         "models": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/Human_BasicMotionsDummy_F.fbx"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/Wave Hip Hop Dance.fbx"
           ],
           "origin": []
         }
