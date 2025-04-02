@@ -87,18 +87,14 @@
         "category": "Map",
         "images": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_36_36.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_37_19.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_37_3.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_37_43.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_37_49.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_37_9.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_38_15.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_38_26.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_38_38.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_39_17.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_39_3.png",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/MapPreview_04-02-25-11_39_32.png"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_10_14.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_10_3.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_11_48.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_11_58.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_13_6.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_6_8.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_7_31.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/3_Devias/5_bingfengguyiceng_04-02-25-16_8_26.png"
           ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/3_Devias/MapPreview_04-02-25-11_36_36.png",
@@ -149,7 +145,15 @@
         "folderName": "5_LostTower",
         "category": "Map",
         "images": {
-          "awaken": [],
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/37_shiluozhita_04-02-25-16_26_24.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/63_shiluozhita_1_04-02-25-16_18_41.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/63_shiluozhita_1_04-02-25-16_19_25.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/63_shiluozhita_1_04-02-25-16_19_8.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/63_shiluozhita_1_04-02-25-16_28_30.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/63_shiluozhita_1_04-02-25-16_28_46.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/5_LostTower/63_shiluozhita_3_04-02-25-16_23_20.png"
+          ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_20_15.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_20_26.png",
@@ -168,7 +172,17 @@
         "folderName": "6_Atlans",
         "category": "Map",
         "images": {
-          "awaken": [],
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_39_44.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_40_37.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_40_59.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_41_11.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_48_37.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_49_16.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_49_51.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_50_39.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/6_Atlans/24_yatelandisiyiceng_04-02-25-16_50_59.png"
+          ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_25_48.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_26_29.png",
@@ -191,7 +205,15 @@
         "folderName": "7_Tarkan",
         "category": "Map",
         "images": {
-          "awaken": [],
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_55_14.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_56_38.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_57_15.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_57_41.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_57_57.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_57_6.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/7_Tarkan/40_siwangshamo_04-02-25-16_58_27.png"
+          ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_31_52.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_31_6.png",
@@ -215,7 +237,14 @@
         "folderName": "8_Icarus",
         "category": "Map",
         "images": {
-          "awaken": [],
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/8_Icarus/32_tiankongzhicheng1_04-02-25-17_4_3.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/8_Icarus/32_tiankongzhicheng1_04-02-25-17_4_56.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/8_Icarus/32_tiankongzhicheng1_04-02-25-17_5_39.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/8_Icarus/32_tiankongzhicheng1_04-02-25-17_5_56.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/8_Icarus/32_tiankongzhicheng1_04-02-25-17_6_26.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Map/8_Icarus/32_tiankongzhicheng1_04-02-25-17_7_1.png"
+          ],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_43_0.png",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/8_Icarus/MapPreview_04-02-25-12_43_51.png",
@@ -264,68 +293,117 @@
     "NPC": [
       {
         "id": "001",
-        "name": "yeye",
-        "folderName": "001_yeye",
+        "name": "Item 001",
+        "folderName": "001",
         "category": "NPC",
         "images": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001_yeye/20250123-151455 (2).jpg",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001_yeye/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001/MapPreview_04-02-25-18_11_6.png"
           ],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001_yeye/20250123-151455 (2).jpg",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001_yeye/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001/bingfengxuegu_04-02-25-18_3_35.png"
           ]
         },
         "models": {
-          "awaken": [],
-          "origin": []
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001/NPC_001.fbx"
+          ],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001/NPC_001.fbx"
+          ]
+        }
+      },
+      {
+        "id": "002",
+        "name": "Item 002",
+        "folderName": "002",
+        "category": "NPC",
+        "images": {
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/MapPreview_04-02-25-18_13_59.png"
+          ],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/002/bingfengxuegu_04-02-25-18_8_40.png"
+          ]
+        },
+        "models": {
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/jian.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/NPC_002.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/NPC_002_01.fbx"
+          ],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/002/NPC_002.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/002/NPC_002_01.fbx"
+          ]
         }
       }
     ],
     "Monster": [
       {
         "id": "001",
-        "name": "bo sua",
-        "folderName": "001_bo_sua",
+        "name": "Item 001",
+        "folderName": "001",
         "category": "Monster",
         "images": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_bo_sua/20250123-151455 (2).jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001/MapPreview_04-02-25-17_42_24.png"
           ],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_bo_sua/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001/bingfengxuegu_04-02-25-17_42_22.png"
           ]
         },
         "models": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_bo_sua/Monster_002.fbx"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001/Monster_001.fbx"
           ],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_bo_sua/Monster_002.fbx"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001/Monster_001.fbx"
           ]
         }
       },
       {
-        "id": "001",
-        "name": "nhen",
-        "folderName": "001_nhen",
+        "id": "002",
+        "name": "Item 002",
+        "folderName": "002",
         "category": "Monster",
         "images": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/20250123-151455 (2).jpg",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/002/MapPreview_04-02-25-17_44_29.png"
           ],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_nhen/20250123-151455 (2).jpg",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001_nhen/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/002/bingfengxuegu_04-02-25-17_44_27.png"
           ]
         },
         "models": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001_nhen/Wave Hip Hop Dance.fbx"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/002/Monster_002.fbx"
           ],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/002/Monster_002.fbx"
+          ]
+        }
+      },
+      {
+        "id": "003",
+        "name": "Item 003",
+        "folderName": "003",
+        "category": "Monster",
+        "images": {
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/003/MapPreview_04-02-25-17_48_3.png"
+          ],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/003/bingfengxuegu_04-02-25-17_48_2.png"
+          ]
+        },
+        "models": {
+          "awaken": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/003/Monster_003.fbx"
+          ],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/003/Monster_003.fbx"
+          ]
         }
       }
     ],
