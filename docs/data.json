@@ -120,7 +120,16 @@
         "category": "Map",
         "images": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-11_46_48.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-11_51_51.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-11_52_21.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-11_52_58.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-11_52_8.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-11_53_14.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-12_14_11.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/4_Dungeon/dixiacheng_04-02-25-12_15_21.png"
+          ]
         }
       },
       {
@@ -130,7 +139,12 @@
         "category": "Map",
         "images": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_20_15.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_20_26.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_20_38.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/5_LostTower/MapPreview_04-02-25-12_21_17.png"
+          ]
         }
       },
       {
@@ -140,7 +154,16 @@
         "category": "Map",
         "images": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_25_48.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_26_29.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_26_3.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_26_37.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_27_11.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_27_25.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_27_48.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/6_Atlans/MapPreview_04-02-25-12_28_5.png"
+          ]
         }
       },
       {
@@ -150,7 +173,17 @@
         "category": "Map",
         "images": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_31_52.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_31_6.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_32_37.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_32_42.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_32_56.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_30.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_37.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_59.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Map/7_Tarkan/MapPreview_04-02-25-12_33_8.png"
+          ]
         }
       },
       {
