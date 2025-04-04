@@ -409,18 +409,19 @@
     ],
     "Outfit": [
       {
-        "id": "001",
-        "name": "wing",
-        "folderName": "001_wing",
+        "id": null,
+        "name": "MixAll",
+        "folderName": "MixAll",
         "category": "Outfit",
         "images": {
           "awaken": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Outfit/001_wing/20250123-151455 (2).jpg",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Outfit/001_wing/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Outfit/MixAll/MapPreview_04-04-25-8_52_45.png"
           ],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/001_wing/20250123-151455 (2).jpg",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/001_wing/20250123-151455.jpg"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/MixAll/MapPreview_04-03-25-18_20_48.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/MixAll/MapPreview_04-03-25-18_3_23.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/MixAll/MapPreview_04-03-25-18_4_31.png",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Outfit/MixAll/MapPreview_04-03-25-18_5_2.png"
           ]
         },
         "models": {
