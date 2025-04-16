@@ -300,17 +300,13 @@
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001/MapPreview_04-02-25-18_11_6.png"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001/bingfengxuegu_04-02-25-18_3_35.png"
-          ]
+          "origin": []
         },
         "models": {
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/001/NPC_001.fbx"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/001/NPC_001.fbx"
-          ]
+          "origin": []
         }
       },
       {
@@ -322,9 +318,7 @@
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/MapPreview_04-02-25-18_13_59.png"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/002/bingfengxuegu_04-02-25-18_8_40.png"
-          ]
+          "origin": []
         },
         "models": {
           "awaken": [
@@ -332,10 +326,1959 @@
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/NPC_002.fbx",
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/NPC/002/NPC_002_01.fbx"
           ],
+          "origin": []
+        }
+      },
+      {
+        "id": "100",
+        "name": "Laya",
+        "folderName": "100_Laya",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/002/NPC_002.fbx",
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/002/NPC_002_01.fbx"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/100_Laya/100_Laya_NPC_007.unity3d.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "101",
+        "name": "Raymon",
+        "folderName": "101_Raymon",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/101_Raymon/101_Raymon_NPC_021.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "102",
+        "name": "Lugard",
+        "folderName": "102_Lugard",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/102_Lugard/102_Lugard_NPC_002.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "103",
+        "name": "Dysan",
+        "folderName": "103_Dysan",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/103_Dysan/103_Dysan_NPC_036.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "104",
+        "name": "Judy",
+        "folderName": "104_Judy",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/104_Judy/104_Judy_NPC_001.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "105",
+        "name": "Safut",
+        "folderName": "105_Safut",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/105_Safut/105_Safut_NPC_006.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "107",
+        "name": "Pasi",
+        "folderName": "107_Pasi",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/107_Pasi/107_Pasi_NPC_011.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "108",
+        "name": "Nana",
+        "folderName": "108_Nana",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/108_Nana/108_Nana_NPC_020.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "109",
+        "name": "Harold",
+        "folderName": "109_Harold",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/109_Harold/109_Harold_NPC_028.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "110",
+        "name": "Royce",
+        "folderName": "110_Royce",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/110_Royce/110_Royce_NPC_040.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "111",
+        "name": "Hanzo",
+        "folderName": "111_Hanzo",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/111_Hanzo/111_Hanzo_NPC_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "112",
+        "name": "Moussa",
+        "folderName": "112_Moussa",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/112_Moussa/112_Moussa_NPC_ZS_05.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "113",
+        "name": "Farah",
+        "folderName": "113_Farah",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/113_Farah/113_Farah_NPC_FS_05.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "114",
+        "name": "Asda",
+        "folderName": "114_Asda",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/114_Asda/114_Asda_NPC_GS_05.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "115",
+        "name": "Quan Phúc Lợi",
+        "folderName": "115_Quan Phúc Lợi",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/115_Quan Phúc Lợi/115_Quan Phúc Lợi_NPC_032.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "116",
+        "name": "Sứ Giả Bồi Thường",
+        "folderName": "116_Sứ Giả Bồi Thường",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/116_Sứ Giả Bồi Thường/116_Sứ Giả Bồi Thường_NPC_031.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "117",
+        "name": "Roseate",
+        "folderName": "117_Roseate",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/117_Roseate/117_Roseate_NPC_024.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "118",
+        "name": "Thủ Hộ Tiên Nữ",
+        "folderName": "118_Thủ Hộ Tiên Nữ",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/118_Thủ Hộ Tiên Nữ/118_Thủ Hộ Tiên Nữ_NPC_004.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "120",
+        "name": "Maria",
+        "folderName": "120_Maria",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/120_Maria/120_Maria_NPC_005.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "124",
+        "name": "Sandra",
+        "folderName": "124_Sandra",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/124_Sandra/124_Sandra_NPC_ZS_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "125",
+        "name": "Chris",
+        "folderName": "125_Chris",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/125_Chris/125_Chris_NPC_FS_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "126",
+        "name": "Traxex",
+        "folderName": "126_Traxex",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/126_Traxex/126_Traxex_NPC_GS_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "127",
+        "name": "Hope",
+        "folderName": "127_Hope",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/127_Hope/127_Hope_NPC_015.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "128",
+        "name": "Shine",
+        "folderName": "128_Shine",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/128_Shine/128_Shine_NPC_008_02.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "129",
+        "name": "Nhiên Hồn",
+        "folderName": "129_Nhiên Hồn",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/129_Nhiên Hồn/129_Nhiên Hồn_NPC_022.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "130",
+        "name": "Vua PK",
+        "folderName": "130_Vua PK",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/130_Vua PK/130_Vua PK_NPC_DX.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "132",
+        "name": "Lambern",
+        "folderName": "132_Lambern",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/132_Lambern/132_Lambern_NPC_MJS_08.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "138",
+        "name": "Slope",
+        "folderName": "138_Slope",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/138_Slope/138_Slope_NPC_052.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "201",
+        "name": "Charon",
+        "folderName": "201_Charon",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/201_Charon/201_Charon_NPC_014.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "202",
+        "name": "Angela",
+        "folderName": "202_Angela",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/202_Angela/202_Angela_NPC_017.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "203",
+        "name": "Thợ chế tác Yoda",
+        "folderName": "203_Thợ chế tác Yoda",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/203_Thợ chế tác Yoda/203_Thợ chế tác Yoda_NPC_023.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "205",
+        "name": "Chaos Goblin",
+        "folderName": "205_Chaos Goblin",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/205_Chaos Goblin/205_Chaos Goblin_NPC_027.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "207",
+        "name": "Zarack",
+        "folderName": "207_Zarack",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/207_Zarack/207_Zarack_NPC_ZS_02.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "208",
+        "name": "Lasta",
+        "folderName": "208_Lasta",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/208_Lasta/208_Lasta_NPC_FS_02.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "209",
+        "name": "Recksia",
+        "folderName": "209_Recksia",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/209_Recksia/209_Recksia_NPC_010.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "211",
+        "name": "Người Trầm Lặng",
+        "folderName": "211_Người Trầm Lặng",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/211_Người Trầm Lặng/211_Người Trầm Lặng_NPC_GS_02.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "212",
+        "name": "Wind Song",
+        "folderName": "212_Wind Song",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/212_Wind Song/212_Wind Song_NPC_019.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "303",
+        "name": "Sophie",
+        "folderName": "303_Sophie",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/303_Sophie/303_Sophie_NPC_034.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "304",
+        "name": "Bellucci",
+        "folderName": "304_Bellucci",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/304_Bellucci/304_Bellucci_NPC_035.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "305",
+        "name": "Nolance",
+        "folderName": "305_Nolance",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/305_Nolance/305_Nolance_NPC_025.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "307",
+        "name": "Sevina",
+        "folderName": "307_Sevina",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/307_Sevina/307_Sevina_NPC_039.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "308",
+        "name": "Thomas",
+        "folderName": "308_Thomas",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/308_Thomas/308_Thomas_NPC_038.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "309",
+        "name": "Keno",
+        "folderName": "309_Keno",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/309_Keno/309_Keno_NPC_FS_03.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "310",
+        "name": "Olexa",
+        "folderName": "310_Olexa",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/310_Olexa/310_Olexa_NPC_GS_03.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "406",
+        "name": "Gorgon",
+        "folderName": "406_Gorgon",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/406_Gorgon/406_Gorgon_NPC_ZS_04.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "407",
+        "name": "Agassa",
+        "folderName": "407_Agassa",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/407_Agassa/407_Agassa_NPC_FS_04.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "408",
+        "name": "Euryale",
+        "folderName": "408_Euryale",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/408_Euryale/408_Euryale_NPC_GS_04.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "609",
+        "name": "Haupiman",
+        "folderName": "609_Haupiman",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/609_Haupiman/609_Haupiman_NPC_MJS_09.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "707",
+        "name": "Kalde",
+        "folderName": "707_Kalde",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/707_Kalde/707_Kalde_NPC_029.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "709",
+        "name": "Elsa",
+        "folderName": "709_Elsa",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/709_Elsa/709_Elsa_NPC_041.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "901",
+        "name": "Gleeze",
+        "folderName": "901_Gleeze",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/901_Gleeze/901_Gleeze_NPC_FS_06.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "902",
+        "name": "Jerrytown",
+        "folderName": "902_Jerrytown",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/902_Jerrytown/902_Jerrytown_NPC_ZS_06.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "903",
+        "name": "Jess",
+        "folderName": "903_Jess",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/903_Jess/903_Jess_NPC_GS_06.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "904",
+        "name": "Lawrence",
+        "folderName": "904_Lawrence",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/904_Lawrence/904_Lawrence_NPC_GS_07.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "907",
+        "name": "Ngũ Từ",
+        "folderName": "907_Ngũ Từ",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/907_Ngũ Từ/907_Ngũ Từ_NPC_GS_08.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "908",
+        "name": "Byrd",
+        "folderName": "908_Byrd",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/908_Byrd/908_Byrd_NPC_ZS_08.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1001",
+        "name": "Người Thú Carl",
+        "folderName": "1001_Người Thú Carl",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/1001_Người Thú Carl/1001_Người Thú Carl_NPC_042.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2006",
+        "name": "Rick Sutter",
+        "folderName": "2006_Rick Sutter",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/2006_Rick Sutter/2006_Rick Sutter_NPC_ZS_07.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2007",
+        "name": "Multi Bulisa",
+        "folderName": "2007_Multi Bulisa",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/2007_Multi Bulisa/2007_Multi Bulisa_NPC_FS_08.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3001",
+        "name": "Băng Tuyết Tinh Linh",
+        "folderName": "3001_Băng Tuyết Tinh Linh",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3001_Băng Tuyết Tinh Linh/3001_Băng Tuyết Tinh Linh_NPC_044.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3002",
+        "name": "Người Gấu bị thương",
+        "folderName": "3002_Người Gấu bị thương",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3002_Người Gấu bị thương/3002_Người Gấu bị thương_NPC_045.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3003",
+        "name": "Băng Phong Hiền Giả",
+        "folderName": "3003_Băng Phong Hiền Giả",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3003_Băng Phong Hiền Giả/3003_Băng Phong Hiền Giả_NPC_046.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3004",
+        "name": "Marian",
+        "folderName": "3004_Marian",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3004_Marian/3004_Marian_NPC_GS_09.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3005",
+        "name": "Perica",
+        "folderName": "3005_Perica",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3005_Perica/3005_Perica_NPC_FS_09.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3006",
+        "name": "Du Khách Gió",
+        "folderName": "3006_Du Khách Gió",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3006_Du Khách Gió/3006_Du Khách Gió_NPC_ZS_09.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3007",
+        "name": "Suối Thánh Quang",
+        "folderName": "3007_Suối Thánh Quang",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3007_Suối Thánh Quang/3007_Suối Thánh Quang_NPC_047.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3008",
+        "name": "Đạo tặc Owen",
+        "folderName": "3008_Đạo tặc Owen",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/3008_Đạo tặc Owen/3008_Đạo tặc Owen_NPC_048.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4005",
+        "name": "Trưởng Lão",
+        "folderName": "4005_Trưởng Lão",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/4005_Trưởng Lão/4005_Trưởng Lão_NPC_016.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5002",
+        "name": "An",
+        "folderName": "5002_An",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/5002_An/5002_An_NPC_050.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5003",
+        "name": "Olaf",
+        "folderName": "5003_Olaf",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/5003_Olaf/5003_Olaf_NPC_MJS_10.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5004",
+        "name": "Nữ vương",
+        "folderName": "5004_Nữ vương",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/5004_Nữ vương/5004_Nữ vương_NPC_049.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5006",
+        "name": "Rương Bí Ẩn",
+        "folderName": "5006_Rương Bí Ẩn",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/5006_Rương Bí Ẩn/5006_Rương Bí Ẩn_NPC_051.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6006",
+        "name": "Sidi",
+        "folderName": "6006_Sidi",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/6006_Sidi/6006_Sidi_NPC_MJS_11.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7005",
+        "name": "Storm Ryan",
+        "folderName": "7005_Storm Ryan",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/7005_Storm Ryan/7005_Storm Ryan_NPC_053.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8001",
+        "name": "Caesar",
+        "folderName": "8001_Caesar",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/8001_Caesar/8001_Caesar_NPC_060.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8002",
+        "name": "Howard",
+        "folderName": "8002_Howard",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/8002_Howard/8002_Howard_NPC_061.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8003",
+        "name": "Sino",
+        "folderName": "8003_Sino",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/8003_Sino/8003_Sino_NPC_062.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8004",
+        "name": "Aaron",
+        "folderName": "8004_Aaron",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/8004_Aaron/8004_Aaron_NPC_063.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8006",
+        "name": "Dema",
+        "folderName": "8006_Dema",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/8006_Dema/8006_Dema_NPC_064.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9002",
+        "name": "Allot",
+        "folderName": "9002_Allot",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/9002_Allot/9002_Allot_NPC_FS_07.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9003",
+        "name": "Mallesi",
+        "folderName": "9003_Mallesi",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/9003_Mallesi/9003_Mallesi_NPC_ZS_03.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9005",
+        "name": "Kesus",
+        "folderName": "9005_Kesus",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/9005_Kesus/9005_Kesus_NPC_ZS_011.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9006",
+        "name": "Melly",
+        "folderName": "9006_Melly",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/9006_Melly/9006_Melly_NPC_FS_011.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9008",
+        "name": "Hương Thảo",
+        "folderName": "9008_Hương Thảo",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/9008_Hương Thảo/9008_Hương Thảo_NPC_GS_011.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "60900",
+        "name": "Thiên Sứ Truyền Tin",
+        "folderName": "60900_Thiên Sứ Truyền Tin",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/60900_Thiên Sứ Truyền Tin/60900_Thiên Sứ Truyền Tin_NPC_008_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "70000",
+        "name": "Yến Tiệc Thường",
+        "folderName": "70000_Yến Tiệc Thường",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/70000_Yến Tiệc Thường/70000_Yến Tiệc Thường_NPC_yanhuizhuo_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "70001",
+        "name": "Yến Tiệc Thịnh Soạn",
+        "folderName": "70001_Yến Tiệc Thịnh Soạn",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/70001_Yến Tiệc Thịnh Soạn/70001_Yến Tiệc Thịnh Soạn_NPC_yanhuizhuo_02.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "70002",
+        "name": "Yến Tiệc Sang Trọng",
+        "folderName": "70002_Yến Tiệc Sang Trọng",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/70002_Yến Tiệc Sang Trọng/70002_Yến Tiệc Sang Trọng_NPC_yanhuizhuo_03.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "70010",
+        "name": "Bàn Tiệc Cưới",
+        "folderName": "70010_Bàn Tiệc Cưới",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/70010_Bàn Tiệc Cưới/70010_Bàn Tiệc Cưới_NPC_hunyan_03.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "80000",
+        "name": "Chiến Kỳ-Bắc",
+        "folderName": "80000_Chiến Kỳ-Bắc",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/80000_Chiến Kỳ-Bắc/80000_Chiến Kỳ-Bắc_NPC_dizhuo_001.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "82000",
+        "name": "Tài nguyên trên",
+        "folderName": "82000_Tài nguyên trên",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/82000_Tài nguyên trên/82000_Tài nguyên trên_WarFlagBase.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "83000",
+        "name": "Cứ điểm trên",
+        "folderName": "83000_Cứ điểm trên",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/83000_Cứ điểm trên/83000_Cứ điểm trên_Base_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "83004",
+        "name": "Cứ điểm phe ta chiếm lĩnh",
+        "folderName": "83004_Cứ điểm phe ta chiếm lĩnh",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/83004_Cứ điểm phe ta chiếm lĩnh/83004_Cứ điểm phe ta chiếm lĩnh_Base_2.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84000",
+        "name": "Cơ Địa Cứ Điểm-Tự Do",
+        "folderName": "84000_Cơ Địa Cứ Điểm-Tự Do",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84000_Cơ Địa Cứ Điểm-Tự Do/84000_Cơ Địa Cứ Điểm-Tự Do_LingDi_Base_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84001",
+        "name": "K.Năng Cứ Điểm-Bị Chinh Phục",
+        "folderName": "84001_K.Năng Cứ Điểm-Bị Chinh Phục",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84001_K.Năng Cứ Điểm-Bị Chinh Phục/84001_K.Năng Cứ Điểm-Bị Chinh Phục_LingDi_Base_2.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84002",
+        "name": "Thám Hiểm Bí Cảnh (Trắng)",
+        "folderName": "84002_Thám Hiểm Bí Cảnh (Trắng)",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84002_Thám Hiểm Bí Cảnh (Trắng)/84002_Thám Hiểm Bí Cảnh (Trắng)_LingDi_Test_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84003",
+        "name": "Diệt Lưu Khấu (Trắng)",
+        "folderName": "84003_Diệt Lưu Khấu (Trắng)",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84003_Diệt Lưu Khấu (Trắng)/84003_Diệt Lưu Khấu (Trắng)_LingDi_Test_2.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84004",
+        "name": "Xây Trạm Gác (Trắng)",
+        "folderName": "84004_Xây Trạm Gác (Trắng)",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84004_Xây Trạm Gác (Trắng)/84004_Xây Trạm Gác (Trắng)_LingDi_Test_3.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84005",
+        "name": "Hủy Phù Chú (Trắng)",
+        "folderName": "84005_Hủy Phù Chú (Trắng)",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84005_Hủy Phù Chú (Trắng)/84005_Hủy Phù Chú (Trắng)_LingDi_Test_4.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "84006",
+        "name": "Càn Quét Sào Huyệt (Trắng)",
+        "folderName": "84006_Càn Quét Sào Huyệt (Trắng)",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/84006_Càn Quét Sào Huyệt (Trắng)/84006_Càn Quét Sào Huyệt (Trắng)_LingDi_Test_5.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "86000",
+        "name": "Thành Trì",
+        "folderName": "86000_Thành Trì",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/86000_Thành Trì/86000_Thành Trì_84_chengchi_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "86001",
+        "name": "Thành Trì",
+        "folderName": "86001_Thành Trì",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/86001_Thành Trì/86001_Thành Trì_84_chengchi_001.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "86002",
+        "name": "Thành Trì",
+        "folderName": "86002_Thành Trì",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/86002_Thành Trì/86002_Thành Trì_84_chengchi_002.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "86003",
+        "name": "Thành Trì",
+        "folderName": "86003_Thành Trì",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/86003_Thành Trì/86003_Thành Trì_84_chengchi_004.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "86004",
+        "name": "Thành Trì",
+        "folderName": "86004_Thành Trì",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/86004_Thành Trì/86004_Thành Trì_84_chengchi_005.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87006",
+        "name": "Tiệc cưới 1",
+        "folderName": "87006_Tiệc cưới 1",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87006_Tiệc cưới 1/87006_Tiệc cưới 1_NPC_hunyan_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87007",
+        "name": "Tiệc cưới 1",
+        "folderName": "87007_Tiệc cưới 1",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87007_Tiệc cưới 1/87007_Tiệc cưới 1_NPC_hunyan_02.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87008",
+        "name": "Tài nguyên thêm",
+        "folderName": "87008_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87008_Tài nguyên thêm/87008_Tài nguyên thêm_NPC_008_03.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87009",
+        "name": "Tài nguyên thêm",
+        "folderName": "87009_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87009_Tài nguyên thêm/87009_Tài nguyên thêm_NPC_008_04.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87010",
+        "name": "Tài nguyên thêm",
+        "folderName": "87010_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87010_Tài nguyên thêm/87010_Tài nguyên thêm_NPC_008_05.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87011",
+        "name": "Tài nguyên thêm",
+        "folderName": "87011_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87011_Tài nguyên thêm/87011_Tài nguyên thêm_NPC_012.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87012",
+        "name": "Tài nguyên thêm",
+        "folderName": "87012_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87012_Tài nguyên thêm/87012_Tài nguyên thêm_NPC_013.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87013",
+        "name": "Tài nguyên thêm",
+        "folderName": "87013_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87013_Tài nguyên thêm/87013_Tài nguyên thêm_NPC_018.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87014",
+        "name": "Tài nguyên thêm",
+        "folderName": "87014_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87014_Tài nguyên thêm/87014_Tài nguyên thêm_NPC_026.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87015",
+        "name": "Tài nguyên thêm",
+        "folderName": "87015_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87015_Tài nguyên thêm/87015_Tài nguyên thêm_NPC_030.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87016",
+        "name": "Tài nguyên thêm",
+        "folderName": "87016_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87016_Tài nguyên thêm/87016_Tài nguyên thêm_NPC_037.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "87017",
+        "name": "Tài nguyên thêm",
+        "folderName": "87017_Tài nguyên thêm",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/87017_Tài nguyên thêm/87017_Tài nguyên thêm_NPC_043.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "90000",
+        "name": "Louis",
+        "folderName": "90000_Louis",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/90000_Louis/90000_Louis_NPC_liuqian.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "91000",
+        "name": "Thủy tinh trắng",
+        "folderName": "91000_Thủy tinh trắng",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/91000_Thủy tinh trắng/91000_Thủy tinh trắng_NPC_baishuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "91001",
+        "name": "Thủy tinh đỏ",
+        "folderName": "91001_Thủy tinh đỏ",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/91001_Thủy tinh đỏ/91001_Thủy tinh đỏ_NPC_hongshuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "91002",
+        "name": "Thủy tinh đen",
+        "folderName": "91002_Thủy tinh đen",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/91002_Thủy tinh đen/91002_Thủy tinh đen_NPC_heishuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "91003",
+        "name": "Thủy tinh xanh",
+        "folderName": "91003_Thủy tinh xanh",
+        "category": "NPC",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/NPC/91003_Thủy tinh xanh/91003_Thủy tinh xanh_NPC_lvshuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       }
     ],
