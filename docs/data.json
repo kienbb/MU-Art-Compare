@@ -2350,7 +2350,9 @@
         },
         "models": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/100_Nhện/Monster_001.fbx"
+          ]
         }
       },
       {
