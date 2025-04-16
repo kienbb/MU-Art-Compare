@@ -349,17 +349,13 @@
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001/MapPreview_04-02-25-17_42_24.png"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001/bingfengxuegu_04-02-25-17_42_22.png"
-          ]
+          "origin": []
         },
         "models": {
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/001/Monster_001.fbx"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/001/Monster_001.fbx"
-          ]
+          "origin": []
         }
       },
       {
@@ -371,17 +367,13 @@
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/002/MapPreview_04-02-25-17_44_29.png"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/002/bingfengxuegu_04-02-25-17_44_27.png"
-          ]
+          "origin": []
         },
         "models": {
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/002/Monster_002.fbx"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/002/Monster_002.fbx"
-          ]
+          "origin": []
         }
       },
       {
@@ -393,17 +385,2653 @@
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/003/MapPreview_04-02-25-17_48_3.png"
           ],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/003/bingfengxuegu_04-02-25-17_48_2.png"
-          ]
+          "origin": []
         },
         "models": {
           "awaken": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Awaken/Monster/003/Monster_003.fbx"
           ],
+          "origin": []
+        }
+      },
+      {
+        "id": "100",
+        "name": "Item 100",
+        "folderName": "100",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/003/Monster_003.fbx"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/100/100_Nhện_Monster_001.unity3d.png"
           ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "101",
+        "name": "Item 101",
+        "folderName": "101",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/101/101_Rồng Con_Monster_002.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "102",
+        "name": "Item 102",
+        "folderName": "102",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/102/102_Bò_Monster_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "103",
+        "name": "Item 103",
+        "folderName": "103",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/103/103_Chó Săn_Monster_004.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "104",
+        "name": "Item 104",
+        "folderName": "104",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/104/104_Bò Đực_Monster_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "105",
+        "name": "Item 105",
+        "folderName": "105",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/105/105_Phù Thủy_Monster_005.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "106",
+        "name": "Item 106",
+        "folderName": "106",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/106/106_Khổng Lồ_Monster_006.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "107",
+        "name": "Item 107",
+        "folderName": "107",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/107/107_Cốt Binh_Monster_007.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "190",
+        "name": "Item 190",
+        "folderName": "190",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/190/190_Cốt Vua_Monster_008_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "200",
+        "name": "Item 200",
+        "folderName": "200",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/200/200_Goblin Nhỏ_Monster_009.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "201",
+        "name": "Item 201",
+        "folderName": "201",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/201/201_Bọ Cạp_Monster_010.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "202",
+        "name": "Item 202",
+        "folderName": "202",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/202/202_Goblin Lớn_Monster_009.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "203",
+        "name": "Item 203",
+        "folderName": "203",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/203/203_Bọ Khổng Lồ_Monster_011.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "204",
+        "name": "Item 204",
+        "folderName": "204",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/204/204_Thợ Săn_Monster_012.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "205",
+        "name": "Item 205",
+        "folderName": "205",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/205/205_Quỷ Rừng_Monster_013.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "206",
+        "name": "Item 206",
+        "folderName": "206",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/206/206_Yakun_Monster_014.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "207",
+        "name": "Item 207",
+        "folderName": "207",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/207/207_Khổng Lồ Đá_Monster_015.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "290",
+        "name": "Item 290",
+        "folderName": "290",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/290/290_Yakun Ma Vương_Monster_079.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "300",
+        "name": "Item 300",
+        "folderName": "300",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/300/300_Bọ Tuyết_Monster_016.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "301",
+        "name": "Item 301",
+        "folderName": "301",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/301/301_Quỷ Băng_Monster_017.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "302",
+        "name": "Item 302",
+        "folderName": "302",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/302/302_Quỷ Xanh_Monster_018.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "303",
+        "name": "Item 303",
+        "folderName": "303",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/303/303_Sát Thủ_Monster_019.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "304",
+        "name": "Item 304",
+        "folderName": "304",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/304/304_Bigfoot_Monster_020.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "305",
+        "name": "Item 305",
+        "folderName": "305",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/305/305_Bigfoot King_Monster_021.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "390",
+        "name": "Item 390",
+        "folderName": "390",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/390/390_Nữ Hoàng Băng_Monster_022.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "401",
+        "name": "Item 401",
+        "folderName": "401",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/401/401_Trùng Độc_Monster_023.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "402",
+        "name": "Item 402",
+        "folderName": "402",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/402/402_Khổng Lồ Một Mắt_Monster_024.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "403",
+        "name": "Item 403",
+        "folderName": "403",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/403/403_Bóng Ma_Monster_025.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "404",
+        "name": "Item 404",
+        "folderName": "404",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/404/404_Cốt Xạ Thủ_Monster_069.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "405",
+        "name": "Item 405",
+        "folderName": "405",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/405/405_Chó Săn Địa Ngục_Monster_004.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "406",
+        "name": "Item 406",
+        "folderName": "406",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/406/406_Nhện Địa Ngục_Monster_026.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "407",
+        "name": "Item 407",
+        "folderName": "407",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/407/407_Cốt Chiến Binh_Monster_007.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "408",
+        "name": "Item 408",
+        "folderName": "408",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/408/408_Phù Thủy Sét_Monster_005.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "409",
+        "name": "Item 409",
+        "folderName": "409",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/409/409_Bò Chiến Độc_Monster_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "410",
+        "name": "Item 410",
+        "folderName": "410",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/410/410_Kỵ Sĩ Bóng Tối_Monster_041.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "490",
+        "name": "Item 490",
+        "folderName": "490",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/490/490_Quỷ Gorgon_Monster_027.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "500",
+        "name": "Item 500",
+        "folderName": "500",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/500/500_Quỷ Mị_Monster_028.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "501",
+        "name": "Item 501",
+        "folderName": "501",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/501/501_Quỷ Mị Độc_Monster_065.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "502",
+        "name": "Item 502",
+        "folderName": "502",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/502/502_Pháp Sư Bị Nguyền Rủa_Monster_068.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "503",
+        "name": "Item 503",
+        "folderName": "503",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/503/503_Ngưu Vương_Monster_029.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "504",
+        "name": "Item 504",
+        "folderName": "504",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/504/504_Ác Quỷ_Monster_031.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "505",
+        "name": "Item 505",
+        "folderName": "505",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/505/505_Kiếm Sĩ Tử Thần_Monster_032.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "590",
+        "name": "Item 590",
+        "folderName": "590",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/590/590_Quỷ Vương Balrog_Monster_030.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600",
+        "name": "Item 600",
+        "folderName": "600",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600/600_Cá Mặt Quỷ Nhỏ_Monster_033.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "601",
+        "name": "Item 601",
+        "folderName": "601",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/601/601_Nhân Ngư_Monster_034.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "602",
+        "name": "Item 602",
+        "folderName": "602",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/602/602_Hải Quái_Monster_035.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "603",
+        "name": "Item 603",
+        "folderName": "603",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/603/603_Cá Mặt Quỷ Lớn_Monster_033.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "604",
+        "name": "Item 604",
+        "folderName": "604",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/604/604_Ngân Cung Hải Quái_Monster_035.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "605",
+        "name": "Item 605",
+        "folderName": "605",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/605/605_Vua Phù Thủy_Monster_036.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "690",
+        "name": "Item 690",
+        "folderName": "690",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/690/690_Quỷ Biển Hydra_Monster_037.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "700",
+        "name": "Item 700",
+        "folderName": "700",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/700/700_Quỷ Vây Kiếm_Monster_038.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "701",
+        "name": "Item 701",
+        "folderName": "701",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/701/701_Sói Nanh Máu_Monster_039.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "702",
+        "name": "Item 702",
+        "folderName": "702",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/702/702_Thiết Luân Chiến Binh_Monster_040.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "703",
+        "name": "Item 703",
+        "folderName": "703",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/703/703_Kỵ Sĩ Hủy Diệt_Monster_041.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "704",
+        "name": "Item 704",
+        "folderName": "704",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/704/704_Hắc Diệm Quỷ_Monster_042.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "791",
+        "name": "Item 791",
+        "folderName": "791",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/791/791_Quỷ Vương Zaikan_Monster_099.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "800",
+        "name": "Item 800",
+        "folderName": "800",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/800/800_Chim Gọi Hồn_Monster_043.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "801",
+        "name": "Item 801",
+        "folderName": "801",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/801/801_Ác linh_Monster_044.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "802",
+        "name": "Item 802",
+        "folderName": "802",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/802/802_Nữ Hoàng Bão Tố_Monster_045.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "803",
+        "name": "Item 803",
+        "folderName": "803",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/803/803_Rồng Xanh_Monster_067.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "804",
+        "name": "Item 804",
+        "folderName": "804",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/804/804_Thanh Thiên Tướng_Monster_044.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "805",
+        "name": "Item 805",
+        "folderName": "805",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/805/805_Hắc Kỵ Sĩ_Monster_047.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "806",
+        "name": "Item 806",
+        "folderName": "806",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/806/806_Rồng Đỏ_Monster_066.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "890",
+        "name": "Item 890",
+        "folderName": "890",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/890/890_Thiên Ma Phoenix_Monster_048.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "901",
+        "name": "Item 901",
+        "folderName": "901",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/901/901_Ma Cây_Monster_049.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "902",
+        "name": "Item 902",
+        "folderName": "902",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/902/902_Quái Nhân_Monster_050.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "903",
+        "name": "Item 903",
+        "folderName": "903",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/903/903_Thích Khách_Monster_051.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "904",
+        "name": "Item 904",
+        "folderName": "904",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/904/904_Quỷ Cây_Monster_052.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "905",
+        "name": "Item 905",
+        "folderName": "905",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/905/905_Nữ Phù Thủy_Monster_053.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "990",
+        "name": "Item 990",
+        "folderName": "990",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/990/990_Thuật Sư Rừng Sâu_Monster_054.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1001",
+        "name": "Item 1001",
+        "folderName": "1001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1001/1001_Sói Sừng Kiếm_Monster_085.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1002",
+        "name": "Item 1002",
+        "folderName": "1002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1002/1002_Kim Giáp Thú_Monster_086.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1003",
+        "name": "Item 1003",
+        "folderName": "1003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1003/1003_Dã Thú Nhân_Monster_088.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1004",
+        "name": "Item 1004",
+        "folderName": "1004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1004/1004_Sát Thủ Băng_Monster_090.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1005",
+        "name": "Item 1005",
+        "folderName": "1005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1005/1005_Khổng Lồ Điên Cuồng_Monster_091.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1006",
+        "name": "Item 1006",
+        "folderName": "1006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1006/1006_Đao Phủ_Monster_092.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "1090",
+        "name": "Item 1090",
+        "folderName": "1090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/1090/1090_Tàn Tích Vương_Monster_101.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2001",
+        "name": "Item 2001",
+        "folderName": "2001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/2001/2001_Cuồng Quỷ_Monster_087.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2002",
+        "name": "Item 2002",
+        "folderName": "2002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/2002/2002_Thợ Săn Song Kiếm_Monster_089.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2003",
+        "name": "Item 2003",
+        "folderName": "2003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/2003/2003_Độc Bước Quỷ_Monster_093.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2004",
+        "name": "Item 2004",
+        "folderName": "2004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/2004/2004_Ma Pháp Sư_Monster_094.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2005",
+        "name": "Item 2005",
+        "folderName": "2005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/2005/2005_Thiền Thần Hỗn Loạn_Monster_095.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "2090",
+        "name": "Item 2090",
+        "folderName": "2090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/2090/2090_Thù Hận Quỷ_Monster_097.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3001",
+        "name": "Item 3001",
+        "folderName": "3001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/3001/3001_Chó Săn Tuyết_Monster_102.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3002",
+        "name": "Item 3002",
+        "folderName": "3002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/3002/3002_Voi Tuyết_Monster_103.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3003",
+        "name": "Item 3003",
+        "folderName": "3003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/3003/3003_Cự Ma Tuyết_Monster_104.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3004",
+        "name": "Item 3004",
+        "folderName": "3004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/3004/3004_Ma Nhện Băng_Monster_105.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3005",
+        "name": "Item 3005",
+        "folderName": "3005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/3005/3005_Băng Kiếm Hồn_Monster_106.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "3090",
+        "name": "Item 3090",
+        "folderName": "3090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/3090/3090_Nhện Băng Khổng Lồ_Monster_107.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4001",
+        "name": "Item 4001",
+        "folderName": "4001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4001/4001_Quái Ma Cây_Monster_109.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4002",
+        "name": "Item 4002",
+        "folderName": "4002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4002/4002_Quái Cây Độc_Monster_110.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4003",
+        "name": "Item 4003",
+        "folderName": "4003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4003/4003_Yêu Cây Tàn Nhẫn_Monster_111.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4004",
+        "name": "Item 4004",
+        "folderName": "4004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4004/4004_Quái Vật Bóng Đêm_Monster_112.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4005",
+        "name": "Item 4005",
+        "folderName": "4005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4005/4005_Kỵ Sĩ Bóng Đêm_Monster_113.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4006",
+        "name": "Item 4006",
+        "folderName": "4006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4006/4006_Chiến Binh Bóng Đêm_Monster_114.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4007",
+        "name": "Item 4007",
+        "folderName": "4007",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4007/4007_Khổng Lồ Sét_Monster_115.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4008",
+        "name": "Item 4008",
+        "folderName": "4008",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4008/4008_Khổng Lồ Ma_Monster_116.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4009",
+        "name": "Item 4009",
+        "folderName": "4009",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4009/4009_Khổng Lồ Lửa_Monster_117.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4090",
+        "name": "Item 4090",
+        "folderName": "4090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4090/4090_Thuyền Trưởng Ma_Monster_121.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5001",
+        "name": "Item 5001",
+        "folderName": "5001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5001/5001_Bọ Cạp Kịch Độc_Monster_128.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5002",
+        "name": "Item 5002",
+        "folderName": "5002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5002/5002_Bọ Cạp Xương Trắng_Monster_129.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5003",
+        "name": "Item 5003",
+        "folderName": "5003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5003/5003_Vượn Đen Một Mắt_Monster_130.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5004",
+        "name": "Item 5004",
+        "folderName": "5004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5004/5004_Vượn Đen Bốn Tay_Monster_131.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5005",
+        "name": "Item 5005",
+        "folderName": "5005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5005/5005_Chiến Binh Giáp Vàng_Monster_132.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5006",
+        "name": "Item 5006",
+        "folderName": "5006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5006/5006_Nữ Vương Ong_Monster_133.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5007",
+        "name": "Item 5007",
+        "folderName": "5007",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5007/5007_Khổng Lồ Đá Ma_Monster_134.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5008",
+        "name": "Item 5008",
+        "folderName": "5008",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5008/5008_Khổng Lồ Đá Quỷ_Monster_135.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5090",
+        "name": "Item 5090",
+        "folderName": "5090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5090/5090_Vua Trùng Tộc_Monster_136.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6001",
+        "name": "Item 6001",
+        "folderName": "6001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6001/6001_Thỏ Kỳ Dị_Monster_145.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6002",
+        "name": "Item 6002",
+        "folderName": "6002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6002/6002_Nhện Ô Nhiễm_Monster_146.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6003",
+        "name": "Item 6003",
+        "folderName": "6003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6003/6003_Thỏ Điên_Monster_147.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6004",
+        "name": "Item 6004",
+        "folderName": "6004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6004/6004_Người Sói_Monster_148.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6005",
+        "name": "Item 6005",
+        "folderName": "6005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6005/6005_Pháp Sư Bị Nguyền Rủa_Monster_149.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6006",
+        "name": "Item 6006",
+        "folderName": "6006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6006/6006_Người Cây Tổ Vật_Monster_150.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6007",
+        "name": "Item 6007",
+        "folderName": "6007",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6007/6007_Gấu Xám_Monster_151.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6008",
+        "name": "Item 6008",
+        "folderName": "6008",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6008/6008_Gấu Xám Tàn Bạo_Monster_152.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "6090",
+        "name": "Item 6090",
+        "folderName": "6090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/6090/6090_Bigfoot Bão Tố_Monster_153.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7001",
+        "name": "Item 7001",
+        "folderName": "7001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7001/7001_Gemini Perry_Monster_160.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7002",
+        "name": "Item 7002",
+        "folderName": "7002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7002/7002_Quái Vật Nguyên Tố_Monster_161.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7003",
+        "name": "Item 7003",
+        "folderName": "7003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7003/7003_Chiến Binh Nguyên Tố_Monster_162.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7004",
+        "name": "Item 7004",
+        "folderName": "7004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7004/7004_Gemini Perry Viễn Cổ_Monster_163.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7005",
+        "name": "Item 7005",
+        "folderName": "7005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7005/7005_Quái Vật Nguyên Tố Viễn Cổ_Monster_164.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7006",
+        "name": "Item 7006",
+        "folderName": "7006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7006/7006_Chiến Binh Nguyên Tố Viễn Cổ_Monster_165.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "7090",
+        "name": "Item 7090",
+        "folderName": "7090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/7090/7090_Sinves_Monster_166.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8001",
+        "name": "Item 8001",
+        "folderName": "8001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8001/8001_Voi Vạn Ác_Monster_168.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8002",
+        "name": "Item 8002",
+        "folderName": "8002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8002/8002_Chiến Binh Cuồng Phong_Monster_169.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8003",
+        "name": "Item 8003",
+        "folderName": "8003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8003/8003_Pháp Sư Vong Linh_Monster_170.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8004",
+        "name": "Item 8004",
+        "folderName": "8004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8004/8004_Voi Vạn Ác Viễn Cổ_Monster_171.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8005",
+        "name": "Item 8005",
+        "folderName": "8005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8005/8005_Chiến Binh Cuồng Phong Viễn Cổ_Monster_172.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8006",
+        "name": "Item 8006",
+        "folderName": "8006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8006/8006_Pháp Sư Vong Linh Viễn Cổ_Monster_173.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8090",
+        "name": "Item 8090",
+        "folderName": "8090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8090/8090_Noam_Monster_174.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9001",
+        "name": "Item 9001",
+        "folderName": "9001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9001/9001_Sư Điên_Monster_176.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9002",
+        "name": "Item 9002",
+        "folderName": "9002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9002/9002_Sư Quỷ_Monster_177.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9003",
+        "name": "Item 9003",
+        "folderName": "9003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9003/9003_Hộ Pháp_Monster_178.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9004",
+        "name": "Item 9004",
+        "folderName": "9004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9004/9004_Sư Điên Viễn Cổ_Monster_179.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9005",
+        "name": "Item 9005",
+        "folderName": "9005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9005/9005_Sư Quỷ Viễn Cổ_Monster_180.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9006",
+        "name": "Item 9006",
+        "folderName": "9006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9006/9006_Hộ Pháp Viễn Cổ_Monster_181.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9090",
+        "name": "Item 9090",
+        "folderName": "9090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9090/9090_Silas_Monster_185.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10001",
+        "name": "Item 10001",
+        "folderName": "10001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10001/10001_Cua Mắt Ma_Monster_198.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10002",
+        "name": "Item 10002",
+        "folderName": "10002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10002/10002_Cua Ma_Monster_199.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10003",
+        "name": "Item 10003",
+        "folderName": "10003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10003/10003_Sứ Đồ Cửu Xà_Monster_200.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10004",
+        "name": "Item 10004",
+        "folderName": "10004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10004/10004_Quỷ Nuốt Mây_Monster_201.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10005",
+        "name": "Item 10005",
+        "folderName": "10005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10005/10005_Ác Linh Nước_Monster_202.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10006",
+        "name": "Item 10006",
+        "folderName": "10006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10006/10006_Thị Nữ Ma_Monster_203.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "10090",
+        "name": "Item 10090",
+        "folderName": "10090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/10090/10090_Nữ Quỷ Quyến Rũ_Monster_204.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "11001",
+        "name": "Item 11001",
+        "folderName": "11001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/11001/11001_Hỏa Nhung Phi Dăng_Monster_227.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "11002",
+        "name": "Item 11002",
+        "folderName": "11002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/11002/11002_Liệt Hóa Yêu_Monster_228.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "11003",
+        "name": "Item 11003",
+        "folderName": "11003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/11003/11003_Mèo Bí Cảnh_Monster_229.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "11004",
+        "name": "Item 11004",
+        "folderName": "11004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/11004/11004_Khỉ Phá Phách_Monster_230.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "11005",
+        "name": "Item 11005",
+        "folderName": "11005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/11005/11005_Nguồn Năng Linh Thạch_Monster_231.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "11090",
+        "name": "Item 11090",
+        "folderName": "11090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/11090/11090_Tiên Nữ Di Tích_Monster_226.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12001",
+        "name": "Item 12001",
+        "folderName": "12001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12001/12001_Hộ Vệ Paracas_Monster_247.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12002",
+        "name": "Item 12002",
+        "folderName": "12002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12002/12002_Thủ Hộ Bass_Monster_248.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12003",
+        "name": "Item 12003",
+        "folderName": "12003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12003/12003_Kẻ Hầu Basquiat_Monster_249.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12004",
+        "name": "Item 12004",
+        "folderName": "12004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12004/12004_Thủ Hộ Paracas_Monster_244.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12005",
+        "name": "Item 12005",
+        "folderName": "12005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12005/12005_Kẻ Hầu Bass_Monster_246.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12006",
+        "name": "Item 12006",
+        "folderName": "12006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12006/12006_Hộ Vệ Basquiat_Monster_245.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "12090",
+        "name": "Item 12090",
+        "folderName": "12090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/12090/12090_Knicks_Monster_243.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13001",
+        "name": "Item 13001",
+        "folderName": "13001",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13001/13001_Người Cổ Thụ_Monster_261.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13002",
+        "name": "Item 13002",
+        "folderName": "13002",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13002/13002_Người Đầm Lầy_Monster_260.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13003",
+        "name": "Item 13003",
+        "folderName": "13003",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13003/13003_Người Nuốt Bóng Tối_Monster_262.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13004",
+        "name": "Item 13004",
+        "folderName": "13004",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13004/13004_Trâu Quỷ_Monster_263.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13005",
+        "name": "Item 13005",
+        "folderName": "13005",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13005/13005_Tinh Linh Biến Dị_Monster_264.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13006",
+        "name": "Item 13006",
+        "folderName": "13006",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13006/13006_Quái Đầm Lầy_Monster_265.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "13090",
+        "name": "Item 13090",
+        "folderName": "13090",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/13090/13090_Hydra_Monster_266.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
         }
       }
     ],
