@@ -2350,9 +2350,7 @@
         },
         "models": {
           "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/100_Nhện/Monster_001.fbx"
-          ]
+          "origin": []
         }
       },
       {
@@ -2368,9 +2366,7 @@
         },
         "models": {
           "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/101_Rồng Con/Monster_002.fbx"
-          ]
+          "origin": []
         }
       },
       {
@@ -2386,9 +2382,7 @@
         },
         "models": {
           "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/102_Bò/Monster_003.fbx"
-          ]
+          "origin": []
         }
       },
       {
@@ -2400,24 +2394,6 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/103_Chó Săn/103_Chó Săn_Monster_004.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/103_Chó Săn/Monster_004.fbx"
-          ]
-        }
-      },
-      {
-        "id": "104",
-        "name": "Bò Đực",
-        "folderName": "104_Bò Đực",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/104_Bò Đực/104_Bò Đực_Monster_003.unity3d.png"
           ]
         },
         "models": {
@@ -2474,6 +2450,22 @@
         }
       },
       {
+        "id": "185",
+        "name": "Item 185",
+        "folderName": "185_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/185_/185__Monster_064.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
         "id": "190",
         "name": "Cốt Vua",
         "folderName": "190_Cốt Vua",
@@ -2482,6 +2474,22 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/190_Cốt Vua/190_Cốt Vua_Monster_008_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "191",
+        "name": "Item 191",
+        "folderName": "191_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/191_/191__Monster_209.unity3d.png"
           ]
         },
         "models": {
@@ -2514,22 +2522,6 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/201_Bọ Cạp/201_Bọ Cạp_Monster_010.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
-        "id": "202",
-        "name": "Goblin Lớn",
-        "folderName": "202_Goblin Lớn",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/202_Goblin Lớn/202_Goblin Lớn_Monster_009.unity3d.png"
           ]
         },
         "models": {
@@ -2810,22 +2802,6 @@
         }
       },
       {
-        "id": "405",
-        "name": "Chó Săn Địa Ngục",
-        "folderName": "405_Chó Săn Địa Ngục",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/405_Chó Săn Địa Ngục/405_Chó Săn Địa Ngục_Monster_004.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
         "id": "406",
         "name": "Nhện Địa Ngục",
         "folderName": "406_Nhện Địa Ngục",
@@ -2834,54 +2810,6 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/406_Nhện Địa Ngục/406_Nhện Địa Ngục_Monster_026.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
-        "id": "407",
-        "name": "Cốt Chiến Binh",
-        "folderName": "407_Cốt Chiến Binh",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/407_Cốt Chiến Binh/407_Cốt Chiến Binh_Monster_007.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
-        "id": "408",
-        "name": "Phù Thủy Sét",
-        "folderName": "408_Phù Thủy Sét",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/408_Phù Thủy Sét/408_Phù Thủy Sét_Monster_005.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
-        "id": "409",
-        "name": "Bò Chiến Độc",
-        "folderName": "409_Bò Chiến Độc",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/409_Bò Chiến Độc/409_Bò Chiến Độc_Monster_003.unity3d.png"
           ]
         },
         "models": {
@@ -2906,14 +2834,14 @@
         }
       },
       {
-        "id": "490",
-        "name": "Quỷ Gorgon",
-        "folderName": "490_Quỷ Gorgon",
+        "id": "411",
+        "name": "Item 411",
+        "folderName": "411_",
         "category": "Monster",
         "images": {
           "awaken": [],
           "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/490_Quỷ Gorgon/490_Quỷ Gorgon_Monster_027.unity3d.png"
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/411_/411__Monster_027.unity3d.png"
           ]
         },
         "models": {
@@ -3082,38 +3010,6 @@
         }
       },
       {
-        "id": "603",
-        "name": "Cá Mặt Quỷ Lớn",
-        "folderName": "603_Cá Mặt Quỷ Lớn",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/603_Cá Mặt Quỷ Lớn/603_Cá Mặt Quỷ Lớn_Monster_033.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
-        "id": "604",
-        "name": "Ngân Cung Hải Quái",
-        "folderName": "604_Ngân Cung Hải Quái",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/604_Ngân Cung Hải Quái/604_Ngân Cung Hải Quái_Monster_035.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
         "id": "605",
         "name": "Vua Phù Thủy",
         "folderName": "605_Vua Phù Thủy",
@@ -3194,22 +3090,6 @@
         }
       },
       {
-        "id": "703",
-        "name": "Kỵ Sĩ Hủy Diệt",
-        "folderName": "703_Kỵ Sĩ Hủy Diệt",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/703_Kỵ Sĩ Hủy Diệt/703_Kỵ Sĩ Hủy Diệt_Monster_041.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
         "id": "704",
         "name": "Hắc Diệm Quỷ",
         "folderName": "704_Hắc Diệm Quỷ",
@@ -3218,6 +3098,22 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/704_Hắc Diệm Quỷ/704_Hắc Diệm Quỷ_Monster_042.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "790",
+        "name": "Item 790",
+        "folderName": "790_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/790_/790__Monster_098.unity3d.png"
           ]
         },
         "models": {
@@ -3298,22 +3194,6 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/803_Rồng Xanh/803_Rồng Xanh_Monster_067.unity3d.png"
-          ]
-        },
-        "models": {
-          "awaken": [],
-          "origin": []
-        }
-      },
-      {
-        "id": "804",
-        "name": "Thanh Thiên Tướng",
-        "folderName": "804_Thanh Thiên Tướng",
-        "category": "Monster",
-        "images": {
-          "awaken": [],
-          "origin": [
-            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/804_Thanh Thiên Tướng/804_Thanh Thiên Tướng_Monster_044.unity3d.png"
           ]
         },
         "models": {
@@ -3922,6 +3802,22 @@
           "awaken": [],
           "origin": [
             "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4090_Thuyền Trưởng Ma/4090_Thuyền Trưởng Ma_Monster_121.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4103",
+        "name": "Item 4103",
+        "folderName": "4103_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4103_/4103__Monster_100.unity3d.png"
           ]
         },
         "models": {
@@ -4983,6 +4879,2343 @@
         "models": {
           "awaken": [],
           "origin": []
+        }
+      },
+      {
+        "id": "18600",
+        "name": "Item 18600",
+        "folderName": "18600_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/18600_/18600__Monster_058.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "18601",
+        "name": "Item 18601",
+        "folderName": "18601_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/18601_/18601__Monster_055.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "18602",
+        "name": "Item 18602",
+        "folderName": "18602_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/18602_/18602__Monster_056.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "20100",
+        "name": "Item 20100",
+        "folderName": "20100_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/20100_/20100__Monster_096.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "22101",
+        "name": "Item 22101",
+        "folderName": "22101_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/22101_/22101__Monster_119.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "22102",
+        "name": "Item 22102",
+        "folderName": "22102_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/22102_/22102__Monster_120.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "22103",
+        "name": "Item 22103",
+        "folderName": "22103_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/22103_/22103__Monster_122.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "300000",
+        "name": "Item 300000",
+        "folderName": "300000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/300000_/300000__Monster_078.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400000",
+        "name": "Item 400000",
+        "folderName": "400000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400000_/400000__Monster_071.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400001",
+        "name": "Item 400001",
+        "folderName": "400001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400001_/400001__Monster_072.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400002",
+        "name": "Item 400002",
+        "folderName": "400002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400002_/400002__Monster_073.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400003",
+        "name": "Item 400003",
+        "folderName": "400003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400003_/400003__Monster_074.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400004",
+        "name": "Item 400004",
+        "folderName": "400004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400004_/400004__Monster_075.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400005",
+        "name": "Item 400005",
+        "folderName": "400005_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400005_/400005__Monster_076.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "400006",
+        "name": "Item 400006",
+        "folderName": "400006_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/400006_/400006__Monster_077.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "500000",
+        "name": "Item 500000",
+        "folderName": "500000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/500000_/500000__Monster_061.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "500004",
+        "name": "Item 500004",
+        "folderName": "500004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/500004_/500004__Monster_057.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "510000",
+        "name": "Item 510000",
+        "folderName": "510000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/510000_/510000__Monster_080.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "510100",
+        "name": "Item 510100",
+        "folderName": "510100_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/510100_/510100__Monster_081.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "510200",
+        "name": "Item 510200",
+        "folderName": "510200_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/510200_/510200__Monster_082.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "510300",
+        "name": "Item 510300",
+        "folderName": "510300_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/510300_/510300__Monster_083.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "510400",
+        "name": "Item 510400",
+        "folderName": "510400_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/510400_/510400__Monster_084.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600003",
+        "name": "Item 600003",
+        "folderName": "600003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600003_/600003__Monster_060.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600004",
+        "name": "Item 600004",
+        "folderName": "600004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600004_/600004__Monster_059.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600005",
+        "name": "Item 600005",
+        "folderName": "600005_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600005_/600005__Monster_062.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600006",
+        "name": "Item 600006",
+        "folderName": "600006_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600006_/600006__Monster_chengbaomen.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600007",
+        "name": "Item 600007",
+        "folderName": "600007_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600007_/600007__Monster_shuijingguancai.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "600008",
+        "name": "Item 600008",
+        "folderName": "600008_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/600008_/600008__Monster_shuijingdiaoxiang.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4000000",
+        "name": "Item 4000000",
+        "folderName": "4000000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4000000_/4000000__Monster_molishuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4000003",
+        "name": "Item 4000003",
+        "folderName": "4000003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4000003_/4000003__Monster_menghuanshuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4000006",
+        "name": "Item 4000006",
+        "folderName": "4000006_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4000006_/4000006__Monster_linghunshuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4000009",
+        "name": "Item 4000009",
+        "folderName": "4000009_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4000009_/4000009__Monster_zhizunshuijing.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "4100001",
+        "name": "Item 4100001",
+        "folderName": "4100001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/4100001_/4100001__Monster_HelhTree.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5200001",
+        "name": "Item 5200001",
+        "folderName": "5200001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5200001_/5200001__Monster_ailan.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "5200002",
+        "name": "Item 5200002",
+        "folderName": "5200002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/5200002_/5200002__Monster_mojiezhiyan.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8000002",
+        "name": "Item 8000002",
+        "folderName": "8000002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8000002_/8000002__Monster_118.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8100000",
+        "name": "Item 8100000",
+        "folderName": "8100000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8100000_/8100000__Monster_127.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8100001",
+        "name": "Item 8100001",
+        "folderName": "8100001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8100001_/8100001__Monster_123.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8100002",
+        "name": "Item 8100002",
+        "folderName": "8100002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8100002_/8100002__Monster_124.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8100003",
+        "name": "Item 8100003",
+        "folderName": "8100003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8100003_/8100003__Monster_125.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8100004",
+        "name": "Item 8100004",
+        "folderName": "8100004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8100004_/8100004__Monster_126.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8600000",
+        "name": "Item 8600000",
+        "folderName": "8600000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8600000_/8600000__Monster_144.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8610000",
+        "name": "Item 8610000",
+        "folderName": "8610000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8610000_/8610000__Monster_137.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8610001",
+        "name": "Item 8610001",
+        "folderName": "8610001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8610001_/8610001__Monster_138.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8610002",
+        "name": "Item 8610002",
+        "folderName": "8610002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8610002_/8610002__Monster_142.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8610003",
+        "name": "Item 8610003",
+        "folderName": "8610003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8610003_/8610003__Monster_141.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8620000",
+        "name": "Item 8620000",
+        "folderName": "8620000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8620000_/8620000__Monster_140.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8620001",
+        "name": "Item 8620001",
+        "folderName": "8620001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8620001_/8620001__Monster_139.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8620004",
+        "name": "Item 8620004",
+        "folderName": "8620004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8620004_/8620004__Monster_143.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8700000",
+        "name": "Item 8700000",
+        "folderName": "8700000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8700000_/8700000__Monster_zhanqi_005.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8800001",
+        "name": "Item 8800001",
+        "folderName": "8800001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8800001_/8800001__Monster_155.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8800002",
+        "name": "Item 8800002",
+        "folderName": "8800002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8800002_/8800002__Monster_154.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8800003",
+        "name": "Item 8800003",
+        "folderName": "8800003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8800003_/8800003__Monster_159.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8800004",
+        "name": "Item 8800004",
+        "folderName": "8800004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8800004_/8800004__Monster_158.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8801002",
+        "name": "Item 8801002",
+        "folderName": "8801002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8801002_/8801002__Monster_157.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8801003",
+        "name": "Item 8801003",
+        "folderName": "8801003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8801003_/8801003__Monster_156.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "8900000",
+        "name": "Item 8900000",
+        "folderName": "8900000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/8900000_/8900000__Monster_108.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9000001",
+        "name": "Item 9000001",
+        "folderName": "9000001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9000001_/9000001__Monster_luolanchengmen.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9000004",
+        "name": "Item 9000004",
+        "folderName": "9000004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9000004_/9000004__Monster_shengbei.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9200000",
+        "name": "Item 9200000",
+        "folderName": "9200000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9200000_/9200000__Monster_167.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300000",
+        "name": "Item 9300000",
+        "folderName": "9300000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300000_/9300000__Monster_JunTuan_2.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300001",
+        "name": "Item 9300001",
+        "folderName": "9300001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300001_/9300001__Monster_JunTuan_3.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300002",
+        "name": "Item 9300002",
+        "folderName": "9300002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300002_/9300002__Monster_JunTuan_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300003",
+        "name": "Item 9300003",
+        "folderName": "9300003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300003_/9300003__CrossbowTower.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300004",
+        "name": "Item 9300004",
+        "folderName": "9300004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300004_/9300004__SacredEssence_01.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300008",
+        "name": "Item 9300008",
+        "folderName": "9300008_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300008_/9300008__Monster_JunTuan_5.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300009",
+        "name": "Item 9300009",
+        "folderName": "9300009_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300009_/9300009__Monster_JunTuan_6.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9300010",
+        "name": "Item 9300010",
+        "folderName": "9300010_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9300010_/9300010__Monster_JunTuan_4.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9400000",
+        "name": "Item 9400000",
+        "folderName": "9400000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9400000_/9400000__WarFlag_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9500000",
+        "name": "Item 9500000",
+        "folderName": "9500000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9500000_/9500000__WarFlag_3.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630000",
+        "name": "Item 9630000",
+        "folderName": "9630000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630000_/9630000__Monster_046.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630001",
+        "name": "Item 9630001",
+        "folderName": "9630001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630001_/9630001__Monster_063.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630002",
+        "name": "Item 9630002",
+        "folderName": "9630002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630002_/9630002__Monster_bakasisilingguan.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630003",
+        "name": "Item 9630003",
+        "folderName": "9630003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630003_/9630003__Monster_XUEMO.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630004",
+        "name": "Item 9630004",
+        "folderName": "9630004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630004_/9630004__Monster_zhanqi_001.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630005",
+        "name": "Item 9630005",
+        "folderName": "9630005_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630005_/9630005__Monster_zhanqi_002.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630006",
+        "name": "Item 9630006",
+        "folderName": "9630006_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630006_/9630006__Monster_zhanqi_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630007",
+        "name": "Item 9630007",
+        "folderName": "9630007_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630007_/9630007__Monster_zhanqi_004.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630008",
+        "name": "Item 9630008",
+        "folderName": "9630008_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630008_/9630008__Monster_175.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9630011",
+        "name": "Item 9630011",
+        "folderName": "9630011_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9630011_/9630011__Monster_nianshou.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640000",
+        "name": "Item 9640000",
+        "folderName": "9640000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640000_/9640000__Monster_191.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640001",
+        "name": "Item 9640001",
+        "folderName": "9640001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640001_/9640001__Monster_192.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640004",
+        "name": "Item 9640004",
+        "folderName": "9640004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640004_/9640004__Monster_193.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640007",
+        "name": "Item 9640007",
+        "folderName": "9640007_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640007_/9640007__Monster_194.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640010",
+        "name": "Item 9640010",
+        "folderName": "9640010_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640010_/9640010__Monster_195.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640013",
+        "name": "Item 9640013",
+        "folderName": "9640013_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640013_/9640013__Monster_196.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9640016",
+        "name": "Item 9640016",
+        "folderName": "9640016_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9640016_/9640016__Monster_197.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9650000",
+        "name": "Item 9650000",
+        "folderName": "9650000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9650000_/9650000__Monster_190.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9650002",
+        "name": "Item 9650002",
+        "folderName": "9650002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9650002_/9650002__Monster_186.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9651000",
+        "name": "Item 9651000",
+        "folderName": "9651000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9651000_/9651000__Monster_189.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9651002",
+        "name": "Item 9651002",
+        "folderName": "9651002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9651002_/9651002__Monster_187.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9652002",
+        "name": "Item 9652002",
+        "folderName": "9652002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9652002_/9652002__Monster_188.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9810000",
+        "name": "Item 9810000",
+        "folderName": "9810000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9810000_/9810000__SeizeFlag_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9810001",
+        "name": "Item 9810001",
+        "folderName": "9810001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9810001_/9810001__SeizeFlag_3.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9810002",
+        "name": "Item 9810002",
+        "folderName": "9810002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9810002_/9810002__SeizeFlag_2.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9820000",
+        "name": "Item 9820000",
+        "folderName": "9820000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9820000_/9820000__MineTruck_1.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9820001",
+        "name": "Item 9820001",
+        "folderName": "9820001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9820001_/9820001__MineTruck_2.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9820002",
+        "name": "Item 9820002",
+        "folderName": "9820002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9820002_/9820002__MineTruck_3.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9820003",
+        "name": "Item 9820003",
+        "folderName": "9820003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9820003_/9820003__MineTruck_4.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9820004",
+        "name": "Item 9820004",
+        "folderName": "9820004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9820004_/9820004__MineTruck_5.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9830000",
+        "name": "Item 9830000",
+        "folderName": "9830000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9830000_/9830000__Monster_208.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9831000",
+        "name": "Item 9831000",
+        "folderName": "9831000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9831000_/9831000__Monster_205.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9831001",
+        "name": "Item 9831001",
+        "folderName": "9831001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9831001_/9831001__Monster_206.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9831002",
+        "name": "Item 9831002",
+        "folderName": "9831002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9831002_/9831002__Monster_207.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9851000",
+        "name": "Item 9851000",
+        "folderName": "9851000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9851000_/9851000__Monster_shengmingzhongzi.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9851001",
+        "name": "Item 9851001",
+        "folderName": "9851001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9851001_/9851001__Monster_tianshenbihu.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9852000",
+        "name": "Item 9852000",
+        "folderName": "9852000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9852000_/9852000__shoulietaowanglu.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9852001",
+        "name": "Item 9852001",
+        "folderName": "9852001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9852001_/9852001__shoulietaowangniao.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9852002",
+        "name": "Item 9852002",
+        "folderName": "9852002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9852002_/9852002__shoulietaowangshu.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9852003",
+        "name": "Item 9852003",
+        "folderName": "9852003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9852003_/9852003__shoulietaowangxiong.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860000",
+        "name": "Item 9860000",
+        "folderName": "9860000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860000_/9860000__Monster_232.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860004",
+        "name": "Item 9860004",
+        "folderName": "9860004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860004_/9860004__Monster_233.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860005",
+        "name": "Item 9860005",
+        "folderName": "9860005_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860005_/9860005__Monster_234.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860006",
+        "name": "Item 9860006",
+        "folderName": "9860006_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860006_/9860006__Monster_235.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860007",
+        "name": "Item 9860007",
+        "folderName": "9860007_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860007_/9860007__Monster_236.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860008",
+        "name": "Item 9860008",
+        "folderName": "9860008_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860008_/9860008__Monster_237.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860009",
+        "name": "Item 9860009",
+        "folderName": "9860009_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860009_/9860009__Monster_238.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860010",
+        "name": "Item 9860010",
+        "folderName": "9860010_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860010_/9860010__Monster_239.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860011",
+        "name": "Item 9860011",
+        "folderName": "9860011_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860011_/9860011__Monster_240.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860012",
+        "name": "Item 9860012",
+        "folderName": "9860012_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860012_/9860012__Monster_241.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860013",
+        "name": "Item 9860013",
+        "folderName": "9860013_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860013_/9860013__Monster_242.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860014",
+        "name": "Item 9860014",
+        "folderName": "9860014_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860014_/9860014__Monster_250.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9860015",
+        "name": "Item 9860015",
+        "folderName": "9860015_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9860015_/9860015__Monster_251.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890000",
+        "name": "Item 9890000",
+        "folderName": "9890000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890000_/9890000__ZHW_001.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890001",
+        "name": "Item 9890001",
+        "folderName": "9890001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890001_/9890001__ZHW_002.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890002",
+        "name": "Item 9890002",
+        "folderName": "9890002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890002_/9890002__ZHW_011.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890003",
+        "name": "Item 9890003",
+        "folderName": "9890003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890003_/9890003__ZHW_003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890004",
+        "name": "Item 9890004",
+        "folderName": "9890004_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890004_/9890004__ZHW_010.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890005",
+        "name": "Item 9890005",
+        "folderName": "9890005_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890005_/9890005__ZHW_008.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890006",
+        "name": "Item 9890006",
+        "folderName": "9890006_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890006_/9890006__ZHW_004.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890007",
+        "name": "Item 9890007",
+        "folderName": "9890007_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890007_/9890007__ZHW_005.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890008",
+        "name": "Item 9890008",
+        "folderName": "9890008_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890008_/9890008__ZHW_006.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890009",
+        "name": "Item 9890009",
+        "folderName": "9890009_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890009_/9890009__ZHW_009.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890010",
+        "name": "Item 9890010",
+        "folderName": "9890010_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890010_/9890010__ZHW_007.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890100",
+        "name": "Item 9890100",
+        "folderName": "9890100_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890100_/9890100__Monster_267.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890101",
+        "name": "Item 9890101",
+        "folderName": "9890101_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890101_/9890101__Monster_268.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9890402",
+        "name": "Item 9890402",
+        "folderName": "9890402_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9890402_/9890402__Monster_259.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9900000",
+        "name": "Item 9900000",
+        "folderName": "9900000_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9900000_/9900000__BS_1000.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9900001",
+        "name": "Item 9900001",
+        "folderName": "9900001_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9900001_/9900001__BS_1001.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9900002",
+        "name": "Item 9900002",
+        "folderName": "9900002_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9900002_/9900002__BS_1002.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": "9900003",
+        "name": "Item 9900003",
+        "folderName": "9900003_",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/9900003_/9900003__BS_1003.unity3d.png"
+          ]
+        },
+        "models": {
+          "awaken": [],
+          "origin": []
+        }
+      },
+      {
+        "id": null,
+        "name": " FBX",
+        "folderName": "_FBX",
+        "category": "Monster",
+        "images": {
+          "awaken": [],
+          "origin": []
+        },
+        "models": {
+          "awaken": [],
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_001.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_002.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_003.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_004.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_005.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_006.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_007.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_008_01.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_009.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_010.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_011.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_012.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_013.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_014.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_015.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_016.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_017.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_018.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_019.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_020.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_021.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_022.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_023.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_024.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_025.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_026.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_027.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_028.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_029.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_030.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_031.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_032.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_033.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_034.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_035.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_036.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_037.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_038.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_039.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_040.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_041.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_042.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_043.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_044.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_045.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_046.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_047.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_048.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_049.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_050.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_051.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_052.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_053.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_054.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_055.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_056.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_057.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_058.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_059.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_060.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_061.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_062.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_063.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_064.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_065.fbx",
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/_FBX/Monster_066.fbx"
+          ]
         }
       }
     ],
