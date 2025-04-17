@@ -2368,7 +2368,9 @@
         },
         "models": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/101_Rồng Con/Monster_002.fbx"
+          ]
         }
       },
       {
@@ -2384,7 +2386,9 @@
         },
         "models": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/102_Bò/Monster_003.fbx"
+          ]
         }
       },
       {
@@ -2400,7 +2404,9 @@
         },
         "models": {
           "awaken": [],
-          "origin": []
+          "origin": [
+            "https://raw.githubusercontent.com/kienbb/MU-Art-Compare/main/assets/MU_Origin/Monster/103_Chó Săn/Monster_004.fbx"
+          ]
         }
       },
       {
